@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import CheckboxButton from "./checkbox";
 import AuthLayer from "../AuthLayer";
 import axios from "axios";
+import { disable } from "@/store/slices/authSlice";
 
 export default function Topics() {
 
@@ -12,9 +13,8 @@ export default function Topics() {
 
     const router = useRouter();
     const userData = useSelector((state) => state.User.data);
+    const dispatch = useDispatch();
     const [loading, setLoading] = useState(false);
-
-
 
 
     const [topics, setTopics] = useState([...new Set([
@@ -95,6 +95,7 @@ export default function Topics() {
                 setTimeout(() => {
                     setLoading(false);
                     router.push("/");
+                    dispatch(disable())
                 }, 3000);
             }
         } catch (error) {
