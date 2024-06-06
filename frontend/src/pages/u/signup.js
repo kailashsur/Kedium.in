@@ -1,12 +1,10 @@
 
 import { useDispatch, useSelector } from "react-redux";
-import Layout from "../Layout";
+
 import AuthForm from "@/components/auth/auth";
 import AuthLayer from "../AuthLayer";
 import { useEffect } from "react";
 import { enable } from "@/store/slices/authSlice";
-import { useRouter } from "next/router";
-
 
 export default function SignUp(){
     const userData = useSelector((state) => state.User.data);
@@ -25,9 +23,11 @@ export default function SignUp(){
     return (
         <>
         <AuthLayer>
+            <div className=" flex justify-center items-center w-full h-full">
            {
-                !userData?.access_token ? <AuthForm /> : "Loading..."
+               !userData?.access_token ? <AuthForm /> : "Loading..."
             }
+            </div>
         </AuthLayer>
         </>
 

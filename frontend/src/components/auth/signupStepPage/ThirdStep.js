@@ -48,7 +48,7 @@ export default function ThirdStep() {
 
                 if(responce){
                     // dispatch(updateStep(4));
-                    console.log("Update Data = ", responce);
+                    // console.log("Update Data = ", responce);
                     router.push("/get-started/topics");
 
                 }

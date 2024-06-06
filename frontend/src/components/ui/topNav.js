@@ -6,7 +6,10 @@ export default function TopNav(){
 
     const dispatch = useDispatch();
     const visible = useSelector((state)=>state.Auth.visible)
+    const {data} = useSelector(state => state.User)
 
+
+  
     function handelSignup (){
         if (visible) {
             dispatch(disable());
@@ -30,7 +33,10 @@ export default function TopNav(){
         </div>
 
         {/* sign in and signup mobile  */}
-        <div>
+
+        {
+          !data?.access_token ?
+             <div>
             <button className=" text-[13px] bg-defaultGrey text-white pt-[1px] pb-[1px] p-[8px] rounded-full "
             onClick={handelSignup}
             >Sign up</button>
@@ -40,6 +46,9 @@ export default function TopNav(){
             onClick={handelLogin}
             > Sign in </button>
         </div>
+        : ""
+        }
+       
 
     </div>)
 }
