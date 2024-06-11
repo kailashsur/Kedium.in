@@ -67,13 +67,13 @@ export default function SignupForm() {
 
   return (
     <>
-      <div className=" relative   bg-white h-screen w-screen flex flex-col items-center justify-center">
+      <div className=" bg-white relative h-full w-full sm:max-w-[680px] flex flex-col items-center justify-center">
         {/* Cross Clos Action button */}
         <button
           className=" absolute top-0 right-0 p-2"
           onClick={handelclosewindow}
         >
-          <svg class="ia fr ib hg" width="29" height="29">
+          <svg className="ia fr ib hg" width="29" height="29">
             <path
               d="M20.13 8.11l-5.61 5.61-5.6-5.61-.81.8 5.61 5.61-5.61 5.61.8.8 5.61-5.6 5.61 5.6.8-.8-5.6-5.6 5.6-5.62"
               fill-rule="evenodd"

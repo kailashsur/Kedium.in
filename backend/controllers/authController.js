@@ -49,8 +49,11 @@ class AuthClass {
     async loginUser(req, res){
         const data = req.body;
 
+
         try {
-            const user = await User.findOne({"email" : data.email});
+            const user = await User.findOne({"email" : data.email}).select("email password google_auth");
+
+        
 
             if(!user){ return res.status(403).json({"Error" : "Email Not Found"})}
 
@@ -80,6 +83,7 @@ class AuthClass {
                         }).send("user cookie set successfully");
                     }
                 })
+               
             }else {
                 return res.status(403).json({error : "Account was created with Google, Please try with google"})
             }

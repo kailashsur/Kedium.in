@@ -104,7 +104,7 @@ export default function FirstStep({next, currentState}) {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="as"
+                  className="as"
                 >
                   <path
                     d="M13.35 10.93l5.53-6.43h-1.31l-4.8 5.59L8.92 4.5H4.5l5.8 8.45-5.8 6.74h1.31l5.08-5.9 4.05 5.9h4.42l-6.01-8.76zm-1.8 2.09l-.59-.84-4.68-6.7H8.3l3.77 5.4.6.85 4.9 7.02h-2.01l-4.01-5.73z"
@@ -129,7 +129,7 @@ export default function FirstStep({next, currentState}) {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="as"
+                  className="as"
                 >
                   <g stroke="#242424">
                     <rect x="3.5" y="5.5" width="17" height="13" rx="1"></rect>

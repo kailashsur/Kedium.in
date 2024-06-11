@@ -1,7 +1,6 @@
 // routes/userRoutes.js
 import express from "express";
 import userControllers from "../controllers/userControllers.js"
-import hashPassword from "../middlewares/hashPassword.js";
 import verifyJWT from "../middlewares/authMiddleware.js";
 import topicsControllers from "../controllers/topicsController.js";
 

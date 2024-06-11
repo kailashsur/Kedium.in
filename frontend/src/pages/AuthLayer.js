@@ -19,7 +19,6 @@ export default function AuthLayer({children}){
           const responseData = response.data.UserAuth;
           dispatch(addUser(responseData));
         } else {
-          console.error('Response data is not as expected:', response);
           dispatch(addUser({})); // Or handle the absence of UserAuth as needed
         }
       } catch (error) {

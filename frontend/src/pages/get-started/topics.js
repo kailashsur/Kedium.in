@@ -5,6 +5,7 @@ import CheckboxButton from "./checkbox";
 import AuthLayer from "../AuthLayer";
 import axios from "axios";
 import { disable } from "@/store/slices/authSlice";
+import toast from "react-hot-toast";
 
 export default function Topics() {
 
@@ -52,6 +53,7 @@ export default function Topics() {
         
         if (selectedTopics.length < 3) {
             setError("Please select at least 3 topics.");
+            toast.error("Please select at least 3 topics.")
             return;
         }
 
@@ -65,12 +67,14 @@ export default function Topics() {
 
             if(response.data.result.interested_in.length >=3){
                 setLoading(false);
+                toast.success("Your topics are selected")
                 router.push("/");
                 return;
             }else{
                 setLoading(false);
-                setError("Click on Next button")
-
+                setError("Click on Next button");
+                toast.error("Click on Next button")
+                return;
             }
         }
 
@@ -80,6 +84,7 @@ export default function Topics() {
     async function handelSubmit(e) {
         e.preventDefault();
         setLoading(true);
+        let loading = toast.loading("Your interest saving...")
         try {
             const response = await axios.post(`${process.env.API_URL}/api/v1/u/topics`,
                 { topicArray: selectedTopics },
@@ -92,15 +97,22 @@ export default function Topics() {
 
             if(response){
                 setSelectedTopics(response.data.result.interested_in);
+                toast.success("Your topics are selected")
                 setTimeout(() => {
+                    toast.dismiss(loading);
                     setLoading(false);
-                    router.push("/");
+                    // router.push("/");
                     dispatch(disable())
                 }, 3000);
             }
         } catch (error) {
             throw error;
+            toast.dismiss(loading);
+            setError("Something went wrong");
+            toast.error("Something went wrong");
+
         }
+      
     }
 
     useEffect(() => {
