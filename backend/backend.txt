@@ -1,8 +1,0 @@
-# DATABASE_URI="mongodb+srv://sopnapatrainfo:KSBukut%401339@earnbywrite.32pggvr.mongodb.net/kedium?retryWrites=true&w=majority&appName=earnbywrite"
-
-
-DATABASE_URI="mongodb://root:password@localhost:27017"
-PORT=8000
-SECRET_ACCESS_KEY="2ccb1e9f6b835290b9e09b8d89b0fdc2a4338bcee5880c99535cbc088665cf355db3d5e42523ba2a3a22c449ddcdc218c3ca1906b55b06da5947e635c6faf5de"
-
-CLIENT_ORIGIN="http://localhost:3000"
