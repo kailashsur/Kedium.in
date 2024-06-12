@@ -1,14 +1,11 @@
-
-import RichTextEditor from '@/components/RichTextEditor';
-import Head from 'next/head';
-
-
+import RichTextEditor from "@/components/RichTextEditor";
+import Head from "next/head";
 
 export default function NewStory() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <Head>
-        <title>Rich Text Editor</title>
+        <title>Edit - </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,5 +16,3 @@ export default function NewStory() {
     </div>
   );
 }
-
-

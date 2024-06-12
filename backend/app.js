@@ -1,15 +1,16 @@
 import express from "express";
-import 'dotenv/config'
+import "dotenv/config";
 import bodyParser from "body-parser";
 import userRouter from "./routes/userRoutes.js";
 import connectDB from "./config/db.js";
-import cors from "cors"
+import cors from "cors";
 import cookieParser from "cookie-parser";
 import errorHandler from "./utils/errorHandler.js";
 import authRoutes from "./routes/authRoutes.js";
 import { graphqlHTTP } from "express-graphql";
 import schema from "./graphql/schema.js";
 import resolver from "./graphql/resolver.js";
+import blogRoutes from "./routes/blogRoutes.js";
 
 //-----Import Statement End -----
 
@@ -22,25 +23,28 @@ connectDB(DATABASE_URI);
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors({ origin: "http://localhost:3000", credentials: true, }))
-app.use(cookieParser())
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cookieParser());
 
-
-// Graphql 
-app.use('/graphql', graphqlHTTP({
+// Graphql
+app.use(
+  "/graphql",
+  graphqlHTTP({
     schema: schema,
     rootValue: resolver,
     graphiql: true, // Enable GraphiQL interface for testing
-}));
+  }),
+);
 // Routes
-app.use("/api/v1/u/", userRouter)
-app.use("/api/v1/u/auth/", authRoutes)
-
+app.use("/api/v1/u/", userRouter);
+app.use("/api/v1/u/auth/", authRoutes);
+app.use("/api/v1/u/blog/", blogRoutes);
 
 //Error Handler
 app.use(errorHandler);
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
+

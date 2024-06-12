@@ -4,6 +4,7 @@ import { updateStep } from "@/store/slices/authSlice";
 import axios from "axios";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react"
+import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux"
 
 
@@ -33,6 +34,7 @@ export default function ThirdStep() {
 
 
         if (userData.fullname != formDataObj.fullname) {
+            let loading = toast.loading("Updating Fullname...");
             try {
                 const responce = await axios.post(`${process.env.API_URL}/api/v1/u/updateuser`, 
                 {
@@ -47,13 +49,17 @@ export default function ThirdStep() {
                 } )
 
                 if(responce){
+                    toast.dismiss(loading);
+                    toast.success("Fullname updated successfully")
                     // dispatch(updateStep(4));
                     // console.log("Update Data = ", responce);
                     router.push("/get-started/topics");
 
                 }
             } catch (error) {
-                console.log(error);
+                toast.dismiss(loading);
+                toast.error(`Something went wrong - ${error.message}`)
+                
             } 
 
         }

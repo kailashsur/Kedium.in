@@ -18,10 +18,10 @@ export default function Home() {
   return (
     <AuthLayer>
       <Layout>
+        {authVisible.visible ? <AuthForm /> : ""}
         <main
-          className={`  h-full w-full flex min-h-screen flex-col   ${inter.className}`}
+          className={`h-auto w-full flex flex-col   ${inter.className}`}
         >
-          {authVisible.visible ? <AuthForm /> : ""}
         </main>
       </Layout>
     </AuthLayer>

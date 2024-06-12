@@ -1,5 +1,3 @@
-// UserAuth = "j:{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NDA5YTdiYWU0NDA5NTRlMmI1YWRmYSIsImlhdCI6MTcxNTUwOTg4M30.2NZOcITcAQOtnuNCd5i7G5_ipvHecEQ1fq75jP1V4mc","username":"unqconsafsdfsa","fullname":"unqconsafsdfsa","email":"unqconsafsdfsa@gmail.com"}"
-// pages/api/getCookie.js
 
 // pages/api/getCookie.js
 
@@ -29,16 +27,3 @@ export default function handler(req, res) {
     }
   }
   
-
-// export default function handler(req, res) {
-//     const { cookies: { UserAuth } } = req;
-
-//     const data = UserAuth.slice(2, -1) + "}";
-//     const parseData = JSON.parse(data);
-
-//     if (!UserAuth) {
-//         return res.status(401).json({ error: 'Unauthorized' });
-//     }
-
-//     res.status(200).json({message : 'Authenticated', UserAuth : parseData  });
-// }
