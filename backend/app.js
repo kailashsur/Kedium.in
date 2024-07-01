@@ -12,6 +12,8 @@ import schema from "./graphql/schema.js";
 import resolver from "./graphql/resolver.js";
 import blogRoutes from "./routes/blogRoutes.js";
 
+import redisClient from "./config/redis.js";
+
 //-----Import Statement End -----
 
 const app = express();
@@ -25,6 +27,16 @@ connectDB(DATABASE_URI);
 app.use(bodyParser.json());
 app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(cookieParser());
+
+// Redis middleware example for caching
+app.use((req, res, next) => {
+  req.redisClient = redisClient; // Attach Redis client to request object
+  next();
+});
+
+
+
+
 
 // Graphql
 app.use(
@@ -47,4 +59,3 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-

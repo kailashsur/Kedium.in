@@ -17,8 +17,14 @@ module.exports = {
         profileGrey : '#DDDEDB',
         borderGrey : '#F2F2F2',
         textGrey : '#6B6B6B',
-      }
+      },
+      fontFamily: {
+        Charter: ['charter' ],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+
+  ],
+ 
 };

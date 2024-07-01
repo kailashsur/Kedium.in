@@ -37,7 +37,7 @@ export default function LoginForm() {
                                 fill="none"
                                 className=""
                             >
-                                <g fill-rule="evenodd" clip-rule="evenodd">
+                                <g fillRule="evenodd" clipRule="evenodd">
                                     <path
                                         d="M20.64 12.2c0-.63-.06-1.25-.16-1.84H12v3.49h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.92a8.78 8.78 0 0 0 2.68-6.61z"
                                         fill="#4285F4"
@@ -114,7 +114,7 @@ export default function LoginForm() {
                             >
                                 <g stroke="#242424">
                                     <rect x="3.5" y="5.5" width="17" height="13" rx="1"></rect>
-                                    <path d="M3.5 8l8.5 6 8.5-6" stroke-linecap="round"></path>
+                                    <path d="M3.5 8l8.5 6 8.5-6" strokeLinecap="round"></path>
                                 </g>
                             </svg>
                             <span className=" px-4">Sign in with Email</span>

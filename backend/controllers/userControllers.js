@@ -1,5 +1,7 @@
 // controllers/userController.js
 
+import redisClient from "../config/redis.js";
+
 // db schema import
 import User from "../models/User.js";
 
@@ -11,13 +13,28 @@ class UserClass {
         const user_id = req.user; // here "user" is a _id of user
         
         try {
+            // check if user data exists in redis cache
+            const cacheUser = await redisClient.get(`user:${user_id}`);
+            if(cacheUser){
+                
+                return res.status(200).json({result : JSON.parse(cacheUser)});
+            }
+
+            // if user data not found in cache, fetch from mongodb
             const user = await User.findOne({ _id: user_id }).select('-_id -__v ');
             if (!user) {
                 return res.status(404).json({ error: 'User not found' });
             }
+
+            // Store user data in Redis cache with an expiration (e.g .., 1 hour)
+            await redisClient.set(`user:${user_id}`, JSON.stringify(user), { EX: 3600 });
+        
+
+
+
             return res.status(200).json({result : user});
         } catch (error) {
-            throw error;
+            return res.status(500).json({ error: 'Internal Server Error' });
         }
     }
 

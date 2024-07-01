@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import dynamic from 'next/dynamic';
 import 'react-quill/dist/quill.snow.css'; // import styles
+
 
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
@@ -23,28 +24,22 @@ const formats = [
   'link', 'image', 'video'
 ];
 
-const RichTextEditor = () => {
-  const [value, setValue] = useState('');
+const RichTextEditor = ({value, setValue}) => {
+  // const [value, setValue] = useState('');
 
-  const handleSubmit = async () => {
-    console.log("Data submitted: ", value);
-  };
 
   return (
-    <div className="p-4">
+    <div className="p-4 z-0">
       <ReactQuill
         value={value}
         onChange={setValue}
         modules={modules}
         formats={formats}
         theme="snow"
+        placeholder='Tell your story...'
+        className=' font-Charter h-auto w-full rounded-lg '
       />
-      <button 
-        onClick={handleSubmit}
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
-      >
-        Publish
-      </button>
+      
     </div>
   );
 }

@@ -9,6 +9,7 @@ const authSlice = createSlice({
     visible: false,
     state : "signup", // or "login"
     step : 1, // or 2
+    
   },
   reducers: {
 

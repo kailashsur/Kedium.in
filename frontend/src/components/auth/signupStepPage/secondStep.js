@@ -1,7 +1,7 @@
 
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { emailRegex, passwordRegex } from "@/lib/regX";
 import AuthLayer from "@/pages/AuthLayer";
 import { useRouter } from "next/router";
@@ -17,7 +17,11 @@ export default function SecondStep({ prev, next, currentState }) {
 
   const uData = useSelector((state) => state.User.data)
 
+  const prevPath = useSelector((state) => state.Path.toGoPath);
+
   const router = useRouter();
+  const { asPath } = router;
+  
 
   const [isButtonDisabled, setButtonDisabled] = useState(false);
 
@@ -74,12 +78,12 @@ export default function SecondStep({ prev, next, currentState }) {
         }
 
       } catch (error) {
-        setError(error)
-        // console.log(error);
+        setError(error.message)
+       
         setLoading(false);
         toast.dismiss(loading);
         setButtonDisabled(false);
-        toast.error("Signup Failed", toast_theme1)
+        toast.error(error.message, toast_theme1)
         setTimeout(() => {
           setError("");
         }, 5000);
@@ -104,22 +108,24 @@ export default function SecondStep({ prev, next, currentState }) {
           setLoading(false)
           setError("");
 
-          router.push('/');
+          let loading = toast.loading("Redirecting ...")
+          
           setTimeout(() => {
-            window.location.reload();
+            toast.dismiss(loading);
+            router.reload();
           }, 3000);
 
         }
 
       } catch (error) {
-        setError(error)
-        toast.error("Login Failed", toast_theme1)
-        // console.log(error);
+        setError(error.message)
+        toast.error(error.message, toast_theme1)
         setLoading(false);
         setButtonDisabled(false);
 
         setTimeout(() => {
           setError("");
+
         }, 5000);
       } finally {
         setLoading(false);
@@ -137,10 +143,7 @@ export default function SecondStep({ prev, next, currentState }) {
     e.preventDefault();
     prev();
   }
-  // useEffect(()=>{
-  //   setUserData(uData)
-  // },[uData])
-  // console.log("User Data second = ", uData);
+
   // --------------------------------------------------------------------------------
 
   if (step == 2)
@@ -203,7 +206,7 @@ export default function SecondStep({ prev, next, currentState }) {
                 <path
                   d="M11.47 13.97L6.99 9.48 11.47 5l.55.5-3.99 3.98 4 4z"
                   color="#1A8917"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 ></path>
               </svg>
 

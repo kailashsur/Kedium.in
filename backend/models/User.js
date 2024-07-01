@@ -49,8 +49,10 @@ const userSchema = new mongoose.Schema(
     },
     password: {
       type: String,
-      required: true,
-      select : false,
+      required: function() {
+        return !this.google_auth;
+      },
+      select: false,
     },
 
     profile: {
