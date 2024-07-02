@@ -8,5 +8,6 @@ const authRoutes = express.Router();
 
 authRoutes.post("/signup",hashPassword , authControllers.registerUser)
 authRoutes.post("/login", authControllers.loginUser)
+authRoutes.post("/google-auth", authControllers.googleAuth)
 
 export default authRoutes;

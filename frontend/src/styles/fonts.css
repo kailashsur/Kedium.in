@@ -1,0 +1,13 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'charter';
+    src: url('/public/fonts/charter_regular-webfont.woff') format('woff'),
+         url('/public/fonts/charter_bold-webfont.woff') format('woff'),
+         url('/public/fonts/Charter\ Regular.ttf') format('truetype'),
+         url('/public/fonts/Charter\ Bold.ttf') format('truetype'),
+         url('/public/fonts/Charter\ Regular.otf') format('opentype'),
+         url('/public/fonts/Charter\ Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

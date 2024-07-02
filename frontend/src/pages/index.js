@@ -1,27 +1,31 @@
 import { Inter } from "next/font/google";
 
-// React imports
-import { useSelector } from "react-redux";
-
-// Component imports
-
-import AuthForm from "@/components/auth/auth";
 import Layout from "./Layout";
 
 import AuthLayer from "./AuthLayer";
+import { useSession, signIn, signOut } from "next-auth/react";
+import { useDispatch, useSelector } from "react-redux";
+import { addUser } from "@/store/slices/userSlice";
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const authVisible = useSelector((state) => state.Auth);
+
+  const { data: session, data } = useSession();
+
+
 
   return (
     <AuthLayer>
       <Layout>
-        {authVisible.visible ? <AuthForm /> : ""}
         <main
           className={`h-auto w-full flex flex-col   ${inter.className}`}
         >
+
+          
+
         </main>
       </Layout>
     </AuthLayer>

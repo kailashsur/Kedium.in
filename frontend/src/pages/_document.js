@@ -8,7 +8,7 @@ export default function Document() {
   return (
     <Html lang="en" className=" h-full w-full">
       <Head />
-      <body className=" h-full w-full">
+      <body className=" h-full w-full ">
     
         <Main />
         <NextScript />

@@ -17,6 +17,8 @@ export default function Topics() {
     const dispatch = useDispatch();
     const [loading, setLoading] = useState(false);
 
+    const prevPath = useSelector(state => state.Path.toGoPath)
+
 
     const [topics, setTopics] = useState([...new Set([
         "Amount", "Interest", "Time", "Period", "web development",
@@ -102,6 +104,8 @@ export default function Topics() {
                     toast.dismiss(loading);
                     setLoading(false);
                     // router.push("/");
+            router.push(prevPath);
+
                     dispatch(disable())
                 }, 3000);
             }
