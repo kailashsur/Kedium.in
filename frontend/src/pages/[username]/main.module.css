@@ -1,0 +1,14 @@
+/*styles/module.blog.css */
+
+.blog h1 {
+    @apply text-green-900 text-2xl font-bold;
+}
+.blog h2 {
+    @apply text-lime-950 text-xl font-bold;
+}
+.blog p {
+    @apply text-purple-950 text-base;
+}
+.blog a {
+    @apply text-blue-900 underline;
+}

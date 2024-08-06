@@ -24,6 +24,7 @@ const blogSchema = mongoose.Schema(
     },
     content: {
       type: String,
+      default: "",
       // required: true
     },
     tags: {

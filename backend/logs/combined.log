@@ -1,0 +1,59 @@
+2024-08-03 01:24:27 [31merror[39m: TypeError: redisClient.pipeline is not a function
+    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:25:41 [31merror[39m: TypeError: redisClient.pipeline is not a function
+    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:25:51 [31merror[39m: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
+2024-08-03 01:25:51 [31merror[39m: Error: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:26:23 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+2024-08-03 01:26:23 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:26:43 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+2024-08-03 01:26:43 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:27:33 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+2024-08-03 01:27:33 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:31:03 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-08-03 01:32:03 [31merror[39m: TypeError: redisClient.pipeline is not a function
+    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 01:36:36 [31merror[39m: TypeError: redisClient.KEYS is not a function
+    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:12:41)
+    at field.resolve (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/utils/schemaInstrumentation.js:36:28)
+    at executeField (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:492:20)
+    at executeFields (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:414:22)
+    at executeOperation (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:344:14)
+    at execute (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:136:20)
+    at executeIncrementally (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/incrementalDeliveryPolyfill.js:21:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async execute (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:228:37)
+    at async processGraphQLRequest (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:157:32)
+2024-08-03 01:37:42 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-08-03 01:37:42 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-08-03 01:37:50 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-08-03 01:37:50 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-08-03 01:38:16 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-08-03 02:28:10 [32minfo[39m: Rate limit exceeded. Try again in 1 minute.
+2024-08-03 02:28:10 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
+    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 02:28:18 [32minfo[39m: Rate limit exceeded. Try again in 1 minute.
+2024-08-03 02:28:18 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
+    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-03 02:31:04 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-08-03 02:31:04 [32minfo[39m: Return author from MongoDB
+2024-08-03 02:31:41 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-08-03 02:31:41 [32minfo[39m: Return author from Redis
+2024-08-03 02:31:49 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-08-03 02:31:49 [32minfo[39m: Return author from MongoDB
+2024-08-03 02:40:18 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-08-03 02:40:18 [32minfo[39m: Return author from Redis
+2024-08-03 02:40:32 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral

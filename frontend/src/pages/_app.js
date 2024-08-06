@@ -8,22 +8,14 @@ import { Provider } from "react-redux";
 // import nextauth for authenticatiaon
 import { SessionProvider } from "next-auth/react";
 
-
 export default function App({ Component, pageProps }) {
-
-
-
   return (
     <ApolloProvider client={client}>
-
-<SessionProvider session={pageProps.session}>
-
-      <Provider store={store}>
-        <Component {...pageProps} />
-      </Provider>
-
-</SessionProvider>
-
+      <SessionProvider session={pageProps.session}>
+        <Provider store={store}>
+          <Component {...pageProps} />
+        </Provider>
+      </SessionProvider>
     </ApolloProvider>
   );
 }

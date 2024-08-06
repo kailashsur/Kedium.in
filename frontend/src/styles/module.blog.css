@@ -1,0 +1,7 @@
+/*styles/module.blog.css */
+
+@layer components {
+    h1 {
+        @apply text-red-600;
+    }
+}

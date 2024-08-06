@@ -1,0 +1,202 @@
+{
+  "data": {
+    "getBlogs": [
+      {
+        "title": "HALF DUPLEX",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/sopnapatrainfo_6690aa57000cb0d30d1a/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>all the contents ara here</p>",
+        "blog_id": "half-duplex-3d79axnbzk-dxzpadkn64",
+        "author": {
+          "username": "sopnapatrainfo",
+          "id": "6688e6cba120424a86f470b0",
+          "fullname": "sopna patra",
+          "email": "sopnapatrainfo@gmail.com",
+          "profile": {
+            "profile_img": "https://lh3.googleusercontent.com/a/ACg8ocKeJ_LJAKvDxEafIpYs_T-JtGB0fQbrOLcUCl1oUu_tc49VbDo=s96-c",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["test"],
+        "publishedAt": "2024-07-12T04:02:30.536Z",
+        "draft": true,
+        "description": "desc",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "6690aad6b8dbb06df294f446",
+        "updatedAt": "2024-07-12T04:02:30.536Z"
+      },
+      {
+        "title": "full duplex",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/sopnapatrainfo6690ad45001ed1479970/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>strer</p>",
+        "blog_id": "full-duplex-8wdpee926j3jcce2m6nki",
+        "author": {
+          "username": "sopnapatrainfo",
+          "id": "6688e6cba120424a86f470b0",
+          "fullname": "sopna patra",
+          "email": "sopnapatrainfo@gmail.com",
+          "profile": {
+            "profile_img": "https://lh3.googleusercontent.com/a/ACg8ocKeJ_LJAKvDxEafIpYs_T-JtGB0fQbrOLcUCl1oUu_tc49VbDo=s96-c",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["tag"],
+        "publishedAt": "2024-07-12T04:13:00.201Z",
+        "draft": true,
+        "description": "description",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "6690ad4cb8dbb06df294f450",
+        "updatedAt": "2024-07-12T04:13:00.201Z"
+      },
+      {
+        "title": "Full Mid Dupled",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/sopnapatrainfo-6690c9e20008c5ef54e0/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>sdfdfasdf</p>",
+        "blog_id": "full-mid-dupled-gzfwsr4lafp5-zbpldaru",
+        "author": {
+          "username": "sopnapatrainfo",
+          "id": "6688e6cba120424a86f470b0",
+          "fullname": "sopna patra",
+          "email": "sopnapatrainfo@gmail.com",
+          "profile": {
+            "profile_img": "https://lh3.googleusercontent.com/a/ACg8ocKeJ_LJAKvDxEafIpYs_T-JtGB0fQbrOLcUCl1oUu_tc49VbDo=s96-c",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["network"],
+        "publishedAt": "2024-07-12T06:15:03.928Z",
+        "draft": true,
+        "description": "descr",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "6690c9e7b8dbb06df294f45a",
+        "updatedAt": "2024-07-12T06:15:03.928Z"
+      },
+      {
+        "title": "First title",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/sopnapatrainfo-66915df000254d6dfd53/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>sdfasfd</p>",
+        "blog_id": "first-title-zuz99i3fgrwoahafm7h_i",
+        "author": {
+          "username": "sopnapatrainfo",
+          "id": "6688e6cba120424a86f470b0",
+          "fullname": "sopna patra",
+          "email": "sopnapatrainfo@gmail.com",
+          "profile": {
+            "profile_img": "https://lh3.googleusercontent.com/a/ACg8ocKeJ_LJAKvDxEafIpYs_T-JtGB0fQbrOLcUCl1oUu_tc49VbDo=s96-c",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["first"],
+        "publishedAt": "2024-07-12T16:46:49.988Z",
+        "draft": true,
+        "description": "description",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "66915df9dbcc5a4a8312dfeb",
+        "updatedAt": "2024-07-12T16:46:49.988Z"
+      },
+      {
+        "title": "test image",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/kailashsurofficial-sm01foJjKr/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<h1>asdfasdf</h1><p><br></p><p><img src=\"https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/kailashsurofficial-kP00mw3c8H/preview?project=668d0bf8002f3c6ef4df\"></p><p><br></p>",
+        "blog_id": "test-image-3b3hxyzsxguizskmj5v2s",
+        "author": {
+          "username": "kailashsurofficial",
+          "id": "6685b09aa2a52cab505c3e7a",
+          "fullname": "kailash chandra sur",
+          "email": "kailashsurofficial@gmail.com",
+          "profile": {
+            "profile_img": "https://avatars.githubusercontent.com/u/89541285?v=4",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": [],
+        "publishedAt": "2024-07-12T19:25:27.438Z",
+        "draft": true,
+        "description": "description",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "66918327dbcc5a4a8312e030",
+        "updatedAt": "2024-07-12T19:25:27.438Z"
+      },
+      {
+        "title": "Barrett, footnote 3, or Why Mr. Smith should stay in Washington",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/kailashsurofficial-kesmGaXWjr/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>Across the history of Supreme Court opinions, some cases are known more for a footnote than for a holding (<a href=\"https://www.oyez.org/cases/1900-1940/304us144\" rel=\"noopener noreferrer\" target=\"_blank\"><em>United States v. Carolene Products</em></a><em>&nbsp;</em>(1938)). If the nation is lucky, Jack Smith will follow the cue in footnote 2 of Justice Amy Coney Barrett’s concurrence in&nbsp;<a href=\"https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Trump v. United States</em></a>, allowing us to forget the mess that is the rest of that opinion.</p><p>American constitutional law has long struggled with the scope of implied presidential immunity. Richard Nixon startled David Frost in&nbsp;<a href=\"https://www.nytimes.com/1977/05/20/archives/excerpts-from-interview-with-nixon-about-domestic-effects-of.html\" rel=\"noopener noreferrer\" target=\"_blank\">his post-presidency interview</a>&nbsp;when Nixon asserted that “when the president does it that means that it is not illegal.” But in the narrow context he was describing, Nixon was right — not because of any magical monarchical power held by the President, but because of limits on the power of Congress to regulate the President’s constitutional authority. If Congress can’t regulate an authority, Congress can’t make it “criminal.” This is the core of presidential immunity: the affirmative substantive limits on Congress’s power to regulate the President.</p><p>But immunity is not just about substance. It’s also about buffers. The core of immunity may be the constitutional limits on Congress’s power. The practice of immunity, however, extends beyond those limits. Immunity reaches beyond its constitutional core, to give Presidents the breathing room they need to avoid being forced to litigate the constitutionality of every regulation as it might affect others while performing their duties as President. How much breathing room is not determined by the Constitution; it is a judgment, a balance, chosen by the Court.</p><p>In the civil context, the Supreme Court has maximized that breathing room, granting the President&nbsp;<em>absolute</em>&nbsp;immunity against monetary damages for acts that extend to the “‘outer perimeter’ of his official responsibility.”&nbsp;<a href=\"https://tile.loc.gov/storage-services/service/ll/usrep/usrep457/usrep457731/usrep457731.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Nixon v. Fitzgerald, 457 U.S. 731 (1982)</a>.</p><p>In the criminal context, however, the Court has apparently now granted the President something less: The President has just a&nbsp;<em>presumptive</em>&nbsp;immunity for acts within the “outer perimeter of his official responsibility.” In any particular case, the prosecutor must demonstrate why that presumption should be overcome.&nbsp;<a href=\"https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Trump v. United States</a>&nbsp;(2024). (Even this presumptive immunity is just presumptive for now: The Court expressly says it’s not sure whether it is presumptive or absolute. We’ll just have to wait and see…)</p><p>Justice Barrett’s footnote two, however, suggests why answering that question — what is the scope of presidential immunity in the criminal context ?— may not have been necessary. Because even assuming the broadest conception of immunity — reaching to the “outer perimeter of his official responsibility,” as the Court in&nbsp;<a href=\"https://tile.loc.gov/storage-services/service/ll/usrep/usrep457/usrep457731/usrep457731.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Fitzgerald</a>&nbsp;put it — the trigger is still some “official responsibility.” Or, under Justice Story’s framing of the question, the trigger is his “discharg[ing] the duties of his office.” If he is not acting on his “official responsibility” or discharging the “duties of his office,” his actions are private and not immune.</p><p>This point matters because, as Justice Barrett observed, there is no official presidential responsibility over the selection of the next president. Getting reelected is nowhere within the “duties of his office.” As Barrett wrote:</p><blockquote>“The Constitution vests power to appoint Presidential electors in the States. … And while Congress has a limited role in that process, the President has none. In short, a President has no legal authority — and thus no official capacity — to influence how the States appoint their electors.”</blockquote><p><br></p><p>Trump’s lawyers had suggested the contrary, based on a badly mischaracterized historical precedent. President Grant sent troops to Louisiana and Mississippi in 1876 to deal with the violence in those elections; Trump’s lawyers claimed that demonstrated that “organizing alternate slates of electors falls within the outer perimeter of Presidential duty.” But Grant was not acting on the basis of any power given to him by the Constitution; Grant was executing the Enforcement Act of 1871, which authorized him to use troops to keep the peace in federal elections. No similar statute authorized Trump to oversee the appointment of electors in 2020. Nor does any other federal election law give the President that power today.</p><p>No doubt, federal law does police voting in a presidential election, incident to a federal interest in the selection of electors. It is, therefore, completely proper for the Department of Justice to investigate claims of voting fraud or voter suppression in a particular election. But a demand that a secretary of state “find 11,780 votes” is not a demand that fraud be addressed. Nor is the threatening of a federal enforcement action unless a different slate of electors is chosen a good faith application of any federal voting rights statute. Both, instead, are part of a plan to press for the President’s reelection — again, a plan to advance a private purpose, not an “official responsibility.”</p><p>Ordinarily, it makes little sense to try to carve with care the scope of the president’s power to “take Care that the Laws be faithfully executed.” Within a federal domain, there are so many laws that it’s hard to see any limit to the President’s authority.</p><p>But in this context, there is a constitutional reason to read the scope of the President’s power carefully: Because the Constitution vests&nbsp;<em>in the states</em>&nbsp;the power to appoint electors — as Justice Barrett insisted. They have primary jurisdiction over the process of appointing their electors. No doubt the President has the power to keep the peace. But federalism demands the Court not translate that incidental power into support for the claim that “organizing alternate slates of electors falls within the outer perimeter of Presidential duty.” His duty has nothing to do with “organizing alternate slates.” If federalism means anything, it means that his duty is to keep the peace and prosecute fraud and discrimination (which, of course, will happen long after electoral votes are counted); it does not mean he gets to insist on a remedy — substitute his slate for my slate—that no court could ever uphold.</p><p>On this view of the case, the case was pretty simple. Everything Trump did here he did to ensure different elector slates would be counted on January 6. That purpose was private, not official. No immunity should attach to anything he did to advance that purpose — at least where what he did conflicts with the equally important constitutional value of preserving the power to appoint electors in the states.</p><p>T</p><p>he Court seemed to get this distinction. But it then muddied it right away. Section II of the opinion distinguishes between “criminal prosecution for unofficial acts committed while in office” and criminal prosecution for “official acts.” It then confuses the point by suggesting that acts that would be official if done in pursuit of an official duty must remain official acts, even if divorced from any official duty.</p><p>This, I suggest, is the critical error in the Court’s analysis. And it follows from the Court’s failure to distinguish precisely between immunity’s core and immunity’s buffers.</p><p>If Trump had tortured a state governor to coerce him to certify the Trump slate of electors, that act would have been a private act because selecting a slate of electors has nothing to do with the President’s “official responsibility.” Private act, no immunity.</p><p>Alternatively, if Trump had ordered his Attorney General to direct the FBI to torture the same governor and then fired the Attorney General when he disobeyed, the Court’s opinion holds that that act (the firing) is absolutely immune (since the removal of such officers is a core presidential power), and that a prosecutor cannot introduce any evidence about that act as a way to prove the President’s (hypothetical) conspiracy to torture a governor.</p><p>This is imprecise thinking. Yes, Congress could not make firing the AG a crime. The President has an unregulable power (subject to the Constitution) to remove core executive officers. The AG is one.</p><p>Yet even if Congress could not block his ability to remove the AG, there’s no reason s/he should be privileged to hide evidence of an illegal act merely because the evidence involves firing the AG. Forcing the AG or the President to give evidence about the firing does not invade the President’s constitutional authority — so long as the action for which the evidence would be admitted is grounded in a private, non-official purpose.</p><p>The point is more general. Acts are only understandable within the context of their purpose. Purpose colors the character of the act. If I kick a dog, it is critical to understand whether I had any purpose to inflict harm, or move the dog, or punish (however stupidly or cruelly) the dog. If I had no such purpose, my “kick” is not a kick. It is an accident.</p><p>This is not a hard distinction to make in many contexts of presidential activity. If the President demands to fly to Texas to stand with citizens who have just suffered (yet another) school massacre, there’s no doubt that act is appropriately presidential and no doubt that the government will bear the (not insubstantial) cost of that trip. Likewise, if the President demands to fly to Michigan to attend a political rally, there’s no doubt that that act is unofficial, and therefore, the campaign will have to pay a (seriously subsidized) cost of that trip. And likewise, there’s no doubt that sometimes purposes are mixed, and in those cases, the law requires a campaign to pay part of the cost of the trip, and the government pays the rest. In each case, the purpose determines how that same act — flying on AirForce One —will be treated: official, non-official, or mixed.</p><p>There’s no reason the same rule couldn’t apply to acts that involve even core presidential functions.&nbsp;Not every act by an official is an official act — because of this difference in purpose.&nbsp;And because the immunity that the Court is now flirting with extending to the President goes beyond constitutional limits, there is no constitutional obligation to recognize such immunity regardless of the act’s purpose.</p><p>Yet this sensible capacity to evaluate actions in light of their purpose is rejected by Chief Justice Roberts. If the actions&nbsp;<em>could</em>&nbsp;relate to an appropriate federal purpose, or more precisely, to an “official responsibility,” then they are immune, even if it is completely obvious that they are actually unrelated to any appropriate federal purpose. “As my Attorney General, I want you to tell Brad Raffensperger to find me 11,780 votes or we’ll sue” is immune because another President might say, “I want you, the Attorney General, to tell the secretary of state that he must respect the Voting Rights Act and allow his citizens to vote or we’ll sue.”</p><p>And, so why? Why must this absolute presumption apply in every case?</p><p>Because, as the Chief Justice warns us, the opposite rule would render the President “unduly cautious in the discharge of his official duties.” If there was a chance to ask — or even for a Court to determine—that otherwise plainly official conduct was actually devoted to an unofficial end (“Tell the FBI to torture Brad Raffensperger until he comes up with those 11,780 votes”), the mighty presidency of the most powerful nation in the world might fall.</p><p>This is the sort of casual reasoning that no other profession gets to engage in. There’s a claim about the consequence of a certain rule, yet there’s no need to demonstrate that that claim is, in fact, true. Yes, we need to ensure that the President is not “unduly cautious in the discharge of his official duties.” But we also need to ensure that the President does not commit crimes. What is the evidence that a rule that tries to assure both would produce undue caution?</p><p>Consider an example to make the point. The President has the power to order the targeted killing of terrorist suspects, at least when the suspect presents an imminent threat. If the President orders a killing pursuant to that authority, that is a core executive function, absolutely immune from prosecution (under the theory I’m advancing and the Court’s).</p><p>By contrast, we should want to live in a world where the President has no power to order the killing of his political opponent. Under my rule, that purpose—killing a political opponent—would render the otherwise core presidential action not immune. But as I read the Supreme Court’s opinion, that act would be absolutely immune. That makes no sense.</p><p>I don’t mean to suggest the obviously naive view that it will always be easy to distinguish between official and unofficial purposes. Nor do I believe the distinction is always clean. Maybe the President has evidence that the opponent is a Manchurian candidate, of an Al Qaeda kind. If that’s true, then the President’s motives would be mixed. I’d be happy to concede that if the motives were genuinely mixed, immunity makes sense. But even then, I don’t see why a prosecutor shouldn’t at least be able to force the President to show a Court why it made sense to kill a political opponent.</p><p>Or consider a more timely example. The former President “retruthed” (yes, that is what they call it) the following meme:</p>",
+        "blog_id": "barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral",
+        "author": {
+          "username": "kailashsurofficial",
+          "id": "6685b09aa2a52cab505c3e7a",
+          "fullname": "kailash chandra sur",
+          "email": "kailashsurofficial@gmail.com",
+          "profile": {
+            "profile_img": "https://avatars.githubusercontent.com/u/89541285?v=4",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["Trump", "Jack Smith", "Presidential Immunit"],
+        "publishedAt": "2024-07-12T21:25:47.668Z",
+        "draft": true,
+        "description": "Across the history of Supreme Court opinions, some cases are known more for a footnote than for a holding",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "66919f5b9cf5eef9eafeffd5",
+        "updatedAt": "2024-07-12T21:25:47.668Z"
+      },
+      {
+        "title": "On a Tesla: don’t",
+        "thambnail": "https://cloud.appwrite.io/v1/storage/buckets/668d0d6c002e20a923fc/files/kailashsurofficial-YqLEfnRLZi/preview?project=668d0bf8002f3c6ef4df",
+        "content": "<p>“How do you like it? Should we get one?”</p><p>This was a question I used to get all the time. In 2016, we got rid of both of our cars and left the country on a sabbatical. When we returned, we bought a Tesla Model 3. People were eager to ask about the car, then. Being asked yesterday made me realize: No one asks anymore. Obviously, in large part, that’s because (in some places at least) they have become as common as mud. (I was in Palo Alto last year. It seemed every other car was a Tesla). But in small part, among some, at least, the question is just embarrassing. To ask about the car is to trigger a question about a person. And that question about that person is just exhausting.</p><p>But it struck me when I was asked about my Tesla yesterday that the issue of the person has obscured the measure of the car. This&nbsp;<em>jammern</em>&nbsp;is thus about the car — primarily. As you’ll see at the end, there’s no way to separate the whine from the person: not because of his politics, but because of what the person says about the chances that this car with such enormous potential will ever achieve its potential.</p><p>(Disclaimer: I’m going to describe my experience, so an n of 1. I obviously have no basis for judging the experience of Tesla users generally.)</p><h2>From the car on down: What’s incredibly great</h2><p>When I first test-drove a Tesla, I had zero expectations of buying one. We had been living without a car for almost two years (gone for one, with a Zipcar stand and muni stop 1/2 a block away, and with Uber (back then) offering almost free rides). We had expected to stay without a car until my oldest went to college.</p><p><br></p><p>But just the experience of sitting in the car was transformative. The Tesla is designed at human scale. When I twisted my wife’s arm to get her to try it, she had the same feeling: She’s not tall, yet the dashboard feels far below you, and you look out with a completely unobstructed view, complemented by an almost completely glass roof.</p><p>The driving was just as compelling. The car is silent and powerful. It accelerates faster than anything I have ever driven—and without the 17–year-old-dropout-sound of a revving car engine. It drives with enormous confidence. All that plus the integration with an incredible charging network makes the idea of ever owning anything but an electric car seem kind of nuts.</p><p>Because this is the part Tesla got right: from the car on down (if you can get what I mean), it is almost perfect. As an electric car with an extraordinary network of charging support, it is wildly better than any car I have ever owned or driven. And in the six years we’ve owned it, we’ve had almost zero maintenance (except we had to pay $750 to remove the insanely loud squeaks from struts that had been improperly lubricated) — no oil, no broken parts. Just regular tire maintenance, and that’s it.</p><h2>Everything else: gimmicks or flawed or frauds</h2><p>Yet I realized as I began thinking about this essay that I had blocked from my own view everything else about this car — at least the stuff I just hate. That’s what the brain does: we learn not to see the ugly that we can’t change. And there is so much about this car that is ugly. Not in the Cybertruck sense of ugly. But in the opposite-of-Apple sense. If the Apple slogan was, “It just works,” the Tesla slogan should be, “It was a good idea, but, yea, no.”</p><p><br></p><p>Here’s a partial list of good ideas that were supposed to work but just don’t, in no particular order:</p><p><strong>Software updates</strong>: Nothing made me happier than the idea of a car that got updated seamlessly and in the background. However, the updates are not seamless; often, they degrade functionality. Often, for me, at least, the updates have reset the whole car, so all settings have to be set again, including saved locations, remembered Bluetooth devices, etc.</p><p><strong>There’s no key; there’s a keycard:</strong>&nbsp;That idea was great on its own. Even better is that most of the functionality of the keycard — not all of it — can be shifted to your phone. So, in principle, you should be able to walk up to your car, it should know you, unlock the doors for you, and reset the seats and other internal settings for you (especially important when there’s a big difference in size between the two drivers of the car), and then you drive away.</p><p>Except in the vast majority of cases, it just doesn’t work. If I’m carrying something, I have to do the bum-tap — bumping my back pocket where my phone is against the car. Or else I have to bring the phone against the door jam of the car to get it to open. Great idea, terribly executed.</p><p><strong>The absurdly dangerous “full-self-driving” mode:&nbsp;</strong>This problem with the car is relatively well known. But I’ve almost never been able to use FSD without needing to disengage it to avoid a serious problem. (For example, it knows to exit from the highway; it doesn’t know not to exit around an embankment at 55 mph).</p><p>My first skepticism about FSD came when trying to use the self-park function. Sometimes (maybe 10% of the time), the car will recognize that you are trying to park. (It doesn’t seem to do this at all anymore, so maybe it’s been disabled, or a setting has been reset). It then gives you the option to allow the Tesla to park itself. But no one uses this function more than once (or twice, after giving the car the benefit of the doubt the first time). You press the function, and the car takes forever to calculate how to place itself between two other cars that are themselves not moving. It starts and then stumbles, pausing to recalculate. The process takes&nbsp;<em>forever</em>, during which time you should think: So this is how effectively it navigates two stationary cars while moving at less than ten mph. And now I’m supposed to trust it at 65 mph navigating through cars moving at the same speed? Are those physics easier?</p><p>Musk’s perpetual lies (or puffery) about this are well known. Here’s a compilation from a couple of years ago:</p><iframe class=\"ql-video\" frameborder=\"0\" allowfullscreen=\"true\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fzhr6fHmCJ6k%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dzhr6fHmCJ6k&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fzhr6fHmCJ6k%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube\"></iframe><p><br></p><p>Why isn’t this just Theranos on wheels? Elizabeth Holmes, at least, didn’t kill anyone. How many have died because they trusted Musk’s promises?</p><p><strong>Summon:</strong>&nbsp;The car has a “summon” function that, in its most basic mode, allows you to pull it forward or backward through the Tesla app when you’re not in the car. (People tell me they’ve used it to retrieve a car from a parking lot. I can’t imagine trying that, but who knows). I’ve tried to use this functionality a couple of times when squeezing between cars in a parking lot. It worked once, when outside, though it took forever to engage the car and get it moving. But most of the times I’ve tried this, the lot is underground, and the app can’t connect to the car. For some reason, likely security, Bluetooth isn’t enough for this functionality.</p><p><strong>The iPad</strong>: The most dramatic feature of the car’s interior design is the large iPad-like interface that controls all of the internal functionality of the car. I was originally skeptical about locating critical information so far from a direct view of the driver— speed, directions, etc. I’ve gotten used to that. More frustrating is the finicky functionality of almost everything — except the games and fart-machine. Those work fine (I’ve never actually thought that I needed a fart machine in my car, but pre-teens think it essential.)</p><p><strong>The sound system</strong>. The most reliable source is FM radio (AM is not an option). After a recent update, all the stations disappeared from the app, so I was stuck on the NPR station I had last selected. But as NPR spends most of its time advertising — primarily NPR, or its sponsors—it has become a useless source of information. I was therefore excited that I could use my Spotify subscription in the car, and could listen to podcasts. But at least 40% of the time, I face a spinning circle as I try to get a podcast to load. Though I’m paying for “premium connectivity,” it is usually not connectivity enough to load the content I want to be played.</p><p>My preference would be to listen to a recorded book. There’s no Audible app on the Tesla, but you can connect your phone through Bluetooth and play Audible from the phone. But here again, the connectivity is finicky. It always forgets what you were listening to and always forces you to reconnect and reinitiate almost every time manually. I didn’t realize how unnecessarily annoying that was until, on a recent trip, I was driving in the cheapest Toyota rental I could get. After connecting my phone to the Toyota, it would connect automatically when I got back into the car and pick up where I was, not only with music (the only thing the Tesla can remember) but it also remembered that I was last listening to Audible and would automatically pick up with that. Exactly the functionality I want: Apparently simple for Toyota; too complicated for Tesla.</p><p><strong>The Tesla will play your texts</strong>, if you link your phone in the right way. In an earlier version of that software, the system was smart enough to pause anything else you might be listening to so you could hear the texts being read out loud. That feature has now been lost — literally for four years now. If you’re listening to music or Audible from your iPhone, it will just speak the message over the music or narration.</p><p><strong>The car yells at you. A lot.&nbsp;</strong>You get in, and it starts screaming at you to put your seatbelts on. I never drive without seatbelts, but it takes at least 5 seconds to get the seatbelts on. Why not just wait till you see I’m shifting into gear before you start yelling at me?</p><p><strong>“Automatic” windshield wipers:&nbsp;</strong>This functionality is so insanely stupid. It regularly turns on when there is no rain, and regularly runs in the slowest speed when there’s tons of rain. I’ve read that this is because Elon vetoed a simple sensor that would have made this function as well as any other modern car. He was convinced the car’s AI could figure it out. It can’t.</p><h2>How Elon is relevant to all this</h2><p>These are the whines of a very privileged soul. I get it. And given the regular software updates, one might think these problems will eventually go away.</p><p><br></p><p>But here’s where the CEO becomes relevant. Tesla is, in many ways, Elon Musk. Some parts are astonishing, inspiring, and good — what I’ve called above the car on down. Other parts are little more than lies and gimmicks. Tons of promises, little delivered. Bold declarations, and then just blah.</p><p>If Tesla had a Tim Cook as CEO, I’d have endless confidence that it would work these problems out. But these problems of the car are the product of distracted management. There seems to be no one at the top willing to look honestly at problems, and get them fixed. The Net is filled with stories of Musk overruling Tesla engineers, to the detriment of the car. It is a company that is governed by a board that still has faith in a CEO who pretends to CEO (yea, let’s make it a verb) two, maybe three of his gaggle of companies, while being the father of (is it?) eleven kids. I get that some people find overcommitment admirable. I think it means that in none of the roles — especially the father role—does the overcommitted deliver.</p><p>Musk is a poisonous type that this moment in history has made increasingly possible. (I discuss the type in&nbsp;<a href=\"https://medium.com/@lessig/the-age-of-the-fantasist-80b86f428d8f\" rel=\"noopener noreferrer\" target=\"_blank\">The Age of the Fantasist</a>.) He’s a man of enormous wealth, surrounded by people who don’t tell him the truth, psychologically unconstrained by the truth, convinced he is a savior, and that the world can’t live without him. He’s Putin but without an army. He’s Trump but constitutionally barred from being President. His single obsession is to be the center of attention. Yet he actually apparently doesn’t realize just how embarrassingly inane his ideas actually are. Years ago, I admired Musk, because I saw only what he had done, and very little of what he thought. Then, I saw&nbsp;<a href=\"https://youtu.be/sUFwwlmxRsw?si=cM3eo579_P_FuKmx\" rel=\"noopener noreferrer\" target=\"_blank\">a recording of him presenting an argument favoring a carbon tax</a>. The argument was right and true, but the presentation was totally banal. If a first-year grad student had given the same talk, he would have been asked to leave grad school. Musk then followed this up by endorsing the election of a party that is constitutionally committed to denying climate change. Apparently, lower taxes on rich people is more important than honestly addressing climate change.</p><p>H</p><p>ere’s the obvious bottom line (that maybe the (“genius”) stock market is finally groking):</p><p>So long as Tesla is Musk, Tesla will fail to compete. Yes, Tesla is largely responsible for the EV market. But so what? Tesla will be beaten by competitors in the market that it created—just as Ford was eventually beaten in the market that it had created. And for many of the same reasons: a driven, visionary CEO who, once successful, surrounded himself with sycophants, who themselves then allowed him to morph into the Nazi he became. Musk is no Nazi; his half-thoughts don’t amount to much of anything. But the key to see is that they (and he) will continue to poison the car company that he first bought, and then made legendary.</p><p>So no, don’t buy a Tesla. Or at least wait until Tesla is run by a serious CEO, one with a bit of humility and discipline, and one for whom making the company succeed is enough.&nbsp;Because so long as the company is run by a CEO stupid enough to believe he is brilliant enough to solve every problem anywhere in the world — from government to war to racism to whatever—the company is certain to fail to beat its emerging competition.&nbsp;Yes, maybe he can blackmail the government into imposing tariffs on his competitors (a super-principled libertarian position, that is). But whether it’s China or someone else, without fundamental change, this company is going to be defeated.</p>",
+        "blog_id": "on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd",
+        "author": {
+          "username": "kailashsurofficial",
+          "id": "6685b09aa2a52cab505c3e7a",
+          "fullname": "kailash chandra sur",
+          "email": "kailashsurofficial@gmail.com",
+          "profile": {
+            "profile_img": "https://avatars.githubusercontent.com/u/89541285?v=4",
+            "profile_color": "#FBA1B7",
+            "bio": ""
+          }
+        },
+        "tags": ["Tesla", "Musk"],
+        "publishedAt": "2024-07-12T22:01:27.961Z",
+        "draft": true,
+        "description": "This was a question I used to get all the time. In 2016, we got rid of both of our cars and left the country on a sabbatical",
+        "activity": {
+          "total_reads": 0,
+          "total_likes": 0,
+          "total_comments": 0
+        },
+        "_id": "6691a7b79cf5eef9eaff0025",
+        "updatedAt": "2024-07-12T22:01:27.961Z"
+      }
+    ]
+  }
+}

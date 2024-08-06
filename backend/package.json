@@ -12,20 +12,24 @@
   "author": "Kailash",
   "license": "ISC",
   "dependencies": {
+    "@apollo/server": "^4.10.4",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.8.0",
-    "graphql-http": "^1.22.1",
+    "graphql": "^16.9.0",
+    "graphql-redis-subscriptions": "^2.6.1",
+    "graphql-tag": "^2.12.6",
+    "ioredis": "^5.4.1",
     "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.2",
     "nanoid": "^5.0.7",
-    "redis": "^4.6.14"
+    "redis": "^4.6.14",
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

@@ -51,6 +51,7 @@ export default function Topics() {
 
 
     async function handelSkip (e) {
+        console.log("api outside- ", process.env.API_URL);
         e.preventDefault();
         
         if (selectedTopics.length < 3) {
@@ -61,6 +62,7 @@ export default function Topics() {
 
         if(selectedTopics.length >=3){
             setLoading(true);
+            console.log("api - ", process.env.API_URL);
             const response = await axios.get(`${process.env.API_URL}/api/v1/u/topics`, {
                 headers: {
                     Authorization: `Bearer ${userData?.access_token}`

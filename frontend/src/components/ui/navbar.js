@@ -1,7 +1,7 @@
 import Image from "next/image";
 import profile from "@/images/profile.png";
 import Logo from "@/images/Medium.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProfileTogle from "./ProfileTogle";
 import { useDispatch, useSelector } from "react-redux";
 import { enable } from "@/store/slices/authSlice";
@@ -14,10 +14,21 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const userData = useSelector(state => state.User.data);
   const { info } = useSelector(state => state.User);
-  const profileImage = info?.profile?.profile_img;
   const dispatch = useDispatch();
   const router = useRouter();
+  
 
+  // Profile Image configuration
+  const [profileImage, setProfileImage] = useState(profile);
+  useEffect(()=>{
+    if(info?.profile?.profile_img){
+
+      setProfileImage(info?.profile?.profile_img)
+    }
+    else{
+      setProfileImage(profileImage)
+    }
+  },[info])
 
 
 
@@ -121,10 +132,28 @@ export default function Navbar() {
         {/* Profile icon */}
         <div className="relative">
           <div className="relative" >
-  
+            {/* {
+              profileImage ? <img 
+              onClick={handelTogle}
+              alt="Profile Image"
+              className="rounded-full border-[1px] border-profileGrey"
+              src={profileImage}
+              width={32}
+              height={32}
+              /> :
           <Image
             onClick={handelTogle}
-            src={profileImage ? profileImage : profile}
+            src={ profile}
+            alt="Profile Image"
+            className="rounded-full border-[1px] border-profileGrey"
+            width={32}
+            height={32}
+          />
+            } */}
+  
+  <Image
+            onClick={handelTogle}
+            src={ profileImage}
             alt="Profile Image"
             className="rounded-full border-[1px] border-profileGrey"
             width={32}

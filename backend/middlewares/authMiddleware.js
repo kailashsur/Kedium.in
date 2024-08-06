@@ -20,4 +20,16 @@ const verifyJWT = (req, res, next) => {
     })
 };
 
+const verifyJWTToken = (token) => {
+    return new Promise((resolve, reject) => {
+        jwt.verify(token, process.env.SECRET_ACCESS_KEY, (err, user) => {
+            if (err) {
+                reject("Access token is invalid");
+            }
+            resolve(user.id);
+        });
+    });
+};
+
 export default verifyJWT;
+export { verifyJWTToken }

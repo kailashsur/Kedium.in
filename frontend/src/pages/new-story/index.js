@@ -9,36 +9,92 @@ import profile from "@/images/profile.png";
 import ProfileTogle from "@/components/ui/ProfileTogle";
 import AuthWrap from "../AuthWrap";
 import Loader from "@/components/ui/loader";
+import PublishCard from "@/components/PublishCard";
+import { nanoid } from "nanoid";
+import { default_color } from "@/styles";
+
+const BlogDataStructure = {
+  blog_id: "", //slug
+  title: "",
+  thambnail: "",
+  description: "",
+  content: "",
+  tags: [],   //Array of string tags
+  draft: false
+}
 
 export default function NewStory() {
   const userData = useSelector((state) => state.User.data);
+  const { info } = useSelector(state => state.User);
+  const [color, setColor] = useState(default_color)
+  const [isOpen, setIsOpen] = useState(false);
+  const [toglePublishCard, setToglePublishCard] = useState(false);
 
+
+  const [slugID, setSlugID] = useState("")
+ 
+
+  // Blog states
+  const [blog, setBlog] = useState(BlogDataStructure);
   const [bodyContent, setBodyContent] = useState("");
 
-  const [isOpen, setIsOpen] = useState(false);
+  
+  // togle handel method
   function handelTogle() {
     setIsOpen(!isOpen);
   }
-
-  function handleSubmit() {
-    console.log(bodyContent);
+  // Post form submit function
+  function handleNext() {
+    setToglePublishCard(true)
   }
 
+
+
+  // useEffect methods
+
   useEffect(() => {
-    if (!userData?.access_token) {
-      window.location.href = "/";
-    }
+    setBlog({ ...blog, content: bodyContent });
+  }, [bodyContent])
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (!userData?.access_token) {
+        window.location.href = "/u/signup";
+      }
+    }, 1000);
+
+
+    setColor(info?.profile?.profile_color)
   }, []);
+
+
+  // Profile Image configuration
+  const [profileImage, setProfileImage] = useState(profile);
+  useEffect(() => {
+    if (info?.profile?.profile_img) {
+
+      setProfileImage(info?.profile?.profile_img)
+    }
+    else {
+      setProfileImage(profileImage)
+    }
+  }, [info])
+
+  useEffect(() => {
+    setSlugID(nanoid().toLowerCase())
+}, [])
+
+
 
   return (
     <AuthWrap>
       {userData?.access_token ? (
         <>
           <Head>
-            <title>Edit - </title>
+            <title>Edit - {blog?.title} </title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
-
+          {/* Navbar start */}
           <nav className="w-full p-4 flex justify-between items-center ">
             <div className="flex gap-3 justify-center items-center ">
               <Link href={"/"}>
@@ -50,10 +106,12 @@ export default function NewStory() {
 
             <div className=" flex gap-4">
               <button
-                className="px-4 mx-2 text-sm bg-purple-800 text-white rounded-full disabled:opacity-40"
-                disabled="true"
+                className={`px-4 mx-2 text-sm bg-purple-700 text-white rounded-full disabled:opacity-40`}
+                style={{ backgroundColor: color }}
+                disabled={blog?.title || !blog?.title == "" ? false : true}
+                onClick={handleNext}
               >
-                Publish
+                Next
               </button>
 
               {/* three dot */}
@@ -83,8 +141,8 @@ export default function NewStory() {
               <div className="relative">
                 <div className="relative" onClick={handelTogle}>
                   <Image
-                    src={profile}
-                    alt="profile"
+                    src={profileImage}
+                    alt="Profile Image"
                     className="rounded-full border-[1px] border-profileGrey"
                     width={32}
                     height={32}
@@ -94,20 +152,35 @@ export default function NewStory() {
               </div>
             </div>
           </nav>
+          {/* navbar ends */}
 
           <main className="min-h-screen flex flex-col items-center">
             <div className="w-full max-w-3xl p-4 border">
+{/* Title editor */}
+              <input type="text"
+                name="title"
+                placeholder="Title"
+                value={blog?.title}
+                onChange={(e) => setBlog({ ...blog, title: e.target.value,
+
+                  blog_id: e.target.value.concat(" ", slugID.toLocaleLowerCase()).replace(/\s+/g, '-').toLowerCase()
+                 })}
+                className=" font-Charter text-3xl border-l border-l-black/30 p-2 w-full outline-none" />
               
-              <input type="text" 
-              name="title"
-              placeholder="Title" 
-              className=" font-Charter text-3xl border-l border-l-black/30 p-2 w-full outline-none" />
-              <RichTextEditor value={bodyContent} setValue={setBodyContent} />
+              {/* Text Editor */}
+              <RichTextEditor value={bodyContent} setValue={setBodyContent} userData={userData} />
             </div>
           </main>
+
+          {/* Publish Card */}
+          {
+            toglePublishCard ?
+            <PublishCard blog={blog} setBlog={setBlog} userData={userData} togle={toglePublishCard} setTogle={setToglePublishCard} info={info} slugID={slugID} setSlugID={setSlugID} color={color} />
+            : null
+          }
         </>
       ) : (
-        <Loader/>
+        <Loader />
 
       )}
     </AuthWrap>
