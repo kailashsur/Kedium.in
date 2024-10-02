@@ -4,8 +4,26 @@ import redisClient from "../../../config/redis.js";
 import { setRedisData } from "../../../utils/redis.utils.js";
 import logger from "../../../utils/logger.js"; // Assuming you have a logger utility
 
-export default async function getBlogs(_, __) {
+import { checkRateLimit } from "../../../rate_limit/rate_limit_method.js";
+import {
+  PUBLIC_BLOG_RATE_LIMIT_MAX_REQUESTS,
+  PUBLIC_BLOG_RATE_LIMIT_WINDOW_SECONDS,
+} from "../../../rate_limit/rate_limit_config.js";
+
+export default async function getBlogs(_, { ip }, context) {
   const cacheKey = `blogs:`;
+
+  // Apply rate limiting per IP
+  try {
+    await checkRateLimit(
+      ip,
+      PUBLIC_BLOG_RATE_LIMIT_MAX_REQUESTS,
+      PUBLIC_BLOG_RATE_LIMIT_WINDOW_SECONDS,
+    );
+  } catch (error) {
+    logger.warn(`Rate limit exceeded for IP ${ip}: ${error.message}`);
+    throw new Error("Too many requests, please try again later.");
+  }
 
   try {
     // Fetch data from cache redis
@@ -42,7 +60,7 @@ export default async function getBlogs(_, __) {
         content: blog.content,
       });
 
-      pipeline.set(blogCacheKey, blogData, "EX", 3600 * 168);
+      pipeline.set(blogCacheKey, blogData, "EX", 3600 * 24);
     });
 
     await pipeline.exec();

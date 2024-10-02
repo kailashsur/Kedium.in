@@ -37,7 +37,7 @@ export default async function cacheAll(_, __) {
         content: blog.content,
       });
 
-      pipeline.set(blogCacheKey, blogData, "EX", 3600 * 168);
+      pipeline.set(blogCacheKey, blogData, "EX", 3600 * 24);
     });
 
     await pipeline.exec();

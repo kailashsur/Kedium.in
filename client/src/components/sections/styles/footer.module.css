@@ -1,0 +1,19 @@
+.footer {
+    @apply -z-10 selection:bg-paragraph-dark/20 bg-primary-dart-background text-paragraph-dark text-center sm:px-16 py-12 sm:pb-28 font-Mori font-bold text-sm flex flex-col sm:flex-row justify-evenly;
+}
+
+.footer hr {
+    @apply sm:hidden border-paragraph-dark/50 rounded-full my-4 mx-6;
+}
+
+.footer div {
+    @apply px-6 py-4  text-start transition-all duration-150 ease-in flex flex-col;
+}
+
+.footer div a {
+    @apply hover:text-primary-dark-text cursor-pointer py-1;
+}
+
+#copywrite {
+    @apply text-paragraph-dark/50 items-start justify-end;
+}

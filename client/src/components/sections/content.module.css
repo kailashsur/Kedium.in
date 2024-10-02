@@ -1,0 +1,90 @@
+/*styles/module.blog.css */
+
+.blog article {
+    @apply font-Mori text-base select-none dark:text-primary-dark-text;
+}
+
+.blog h1 {
+    @apply text-primary-text font-MoriSemiBold selection:bg-purple-400 selection:text-white dark:text-primary-dark-text;
+}
+
+.blog h2 {
+    @apply text-primary-text dark:text-primary-dark-text hover:underline hover:decoration-sky-500 hover:decoration-wavy pt-6 pb-4 text-2xl font-bold selection:bg-lime-500 selection:text-white hover:cursor-pointer  ;
+}
+
+
+.blog p {
+    @apply text-base text-primary-text dark:text-paragraph-dark pt-4 selection:bg-orange-500 selection:text-white ;
+}
+
+.blog a {
+    @apply text-indigo-500 dark:text-link-lime dark:hover:text-link-lime font-semibold hover:text-indigo-500 hover:underline transition-all duration-200 ease-in-out ;
+}
+
+.blog img {
+    @apply w-full h-auto object-cover rounded-sm ;
+}
+
+.blog blockquote {
+    @apply text-base text-primary-text border-l-4 border-primary-text pl-4 py-2 my-4 ;
+}
+
+.blog strong {
+    @apply font-MoriSemiBold text-primary-dart-background dark:text-primary-dark-text font-bold ;
+}
+
+.blog ul {
+    @apply list-disc pl-6 text-primary-text ;
+}
+
+.blog ol {
+    @apply list-decimal pl-6 text-primary-text ;
+}
+
+.blog li {
+    @apply text-base text-primary-text font-bold ;
+}
+
+.blog code {
+    @apply text-sm text-primary-text bg-zinc-100 p-1 rounded-sm ;
+}
+
+.blog pre {
+    @apply text-sm text-primary-text bg-zinc-100 p-1 rounded-sm ;
+}
+
+.blog hr {
+    @apply border-t-2 border-primary-text my-4 ;
+}
+
+.blog table {
+    @apply w-full text-primary-text border-collapse ;
+}
+
+.blog th {
+    @apply text-base text-primary-text font-bold border border-primary-text p-2 ;
+}
+
+.blog td {
+    @apply text-base text-primary-text border border-primary-text p-2 ;
+}
+
+.blog thead {
+    @apply text-base text-primary-text font-bold ;
+}
+
+.blog tbody {
+    @apply text-base text-primary-text ;
+}
+
+.blog tr {
+    @apply text-base text-primary-text ;
+}
+
+.blog .gatsby-highlight {
+    @apply my-4 bg-lime-400 ;
+}
+
+.blog iframe {
+    @apply w-full h-auto rounded-lg my-4 shadow-lg  ;
+}

@@ -49,7 +49,7 @@ const userSchema = new mongoose.Schema(
     },
     password: {
       type: String,
-      required: function() {
+      required: function () {
         return !this.google_auth;
       },
       select: false,
@@ -61,6 +61,10 @@ const userSchema = new mongoose.Schema(
         maxlength: [200, "Bio should not be more than 200"],
         default: "",
       },
+      cover_img: {
+        type: String,
+      },
+
       profile_img: {
         type: String,
         default: () => {
@@ -83,8 +87,12 @@ const userSchema = new mongoose.Schema(
 
     role: {
       type: String,
-      enum: ["user", "admin"], // role can only be 'user' or 'admin'
-      default: "user", // default role is 'user'
+      enum: ["USER", "MEMBER", "ADMIN"], // role can only be 'user' or 'admin'
+      default: "USER", // default role is 'user'
+    },
+    verified: {
+      type: Boolean,
+      default: false,
     },
     interested_in: {
       type: [String], // catagories
@@ -92,7 +100,8 @@ const userSchema = new mongoose.Schema(
     },
 
     reading_list: {
-      type: [String], // blog object id
+      type: [Schema.Types.ObjectId],
+      ref: "blogs",
       default: [],
     },
 
@@ -104,11 +113,19 @@ const userSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    following_count: {
+      type: Number,
+      default: 0,
+    },
     followers: {
-      type: [String], // Specify that it's an array of strings
+      type: [Schema.Types.ObjectId],
+      ref: "users",
+      default: [],
     },
     following: {
-      type: [String],
+      type: [Schema.Types.ObjectId],
+      ref: "users",
+      default: [],
     },
     // other fields as needed
     social_links: {
@@ -140,7 +157,12 @@ const userSchema = new mongoose.Schema(
     google_auth: {
       type: Boolean,
       default: false,
-      select : false,
+      select: false,
+    },
+    pinned_post: {
+      type: [Schema.Types.ObjectId],
+      ref: "blogs",
+      default: [],
     },
     blogs: {
       type: [Schema.Types.ObjectId],
@@ -152,7 +174,7 @@ const userSchema = new mongoose.Schema(
     timestamps: {
       createdAt: "joinedAt",
     },
-  }
+  },
 );
 
 export default mongoose.model("User", userSchema);

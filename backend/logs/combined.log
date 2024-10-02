@@ -1,59 +1,1309 @@
-2024-08-03 01:24:27 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+
+2024-08-29 11:49:37 [32minfo[39m: Return author from Redis
+2024-08-29 11:49:37 [32minfo[39m: Return author from Redis
+2024-08-29 11:49:37 [32minfo[39m: Return author from Redis
+2024-08-29 11:55:08 [32minfo[39m: Return author from Redis
+2024-08-29 11:55:08 [32minfo[39m: Return author from Redis
+2024-08-29 11:55:08 [32minfo[39m: Return author from Redis
+2024-08-29 11:56:05 [32minfo[39m: Return author from Redis
+2024-08-29 11:56:05 [32minfo[39m: Return author from Redis
+2024-08-29 11:56:05 [32minfo[39m: Return author from Redis
+2024-08-29 12:00:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:00:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:00:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:08 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:37 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:37 [32minfo[39m: Return author from Redis
+2024-08-29 12:01:37 [32minfo[39m: Return author from Redis
+2024-08-29 12:04:06 [32minfo[39m: Return author from Redis
+2024-08-29 12:04:06 [32minfo[39m: Return author from Redis
+2024-08-29 12:04:06 [32minfo[39m: Return author from Redis
+2024-08-29 12:13:52 [32minfo[39m: Return author from Redis
+2024-08-29 12:13:52 [32minfo[39m: Return author from Redis
+2024-08-29 12:13:52 [32minfo[39m: Return author from Redis
+2024-08-29 12:28:51 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-08-29 12:28:51 [32minfo[39m: Return author from Redis
+2024-08-29 12:29:12 [32minfo[39m: Return author from Redis
+2024-08-29 12:29:12 [32minfo[39m: Return author from Redis
+2024-08-29 12:29:12 [32minfo[39m: Return author from Redis
+2024-08-29 12:29:13 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-08-29 12:29:13 [32minfo[39m: Return author from Redis
+2024-08-29 12:47:49 [31merror[39m: Error fetching blogs for user: Schema hasn't been registered for model "users".
+Use mongoose.model(name, schema)
+2024-08-29 12:50:44 [31merror[39m: Error fetching blogs for user: Schema hasn't been registered for model "users".
+Use mongoose.model(name, schema)
+2024-08-29 12:55:34 [32minfo[39m: Return author from Redis
+2024-08-29 13:08:51 [32minfo[39m: Return author from Redis
+2024-08-29 13:12:03 [32minfo[39m: Return author from Redis
+2024-08-29 13:12:22 [32minfo[39m: Return author from Redis
+2024-08-29 13:17:42 [32minfo[39m: Return author from Redis
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:19:24 [32minfo[39m: Return author from MongoDB
+2024-09-05 09:20:28 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-09-05 09:20:28 [32minfo[39m: Return author from Redis
+2024-09-05 09:20:51 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-05 09:20:51 [32minfo[39m: Return author from Redis
+2024-09-05 09:21:21 [32minfo[39m: Returning blog from cache with id kalki-movie-2024:-everything-you-need-to-know-about-this-highly-anticipated-film-a4pi9gxuup8thztpvnx3y
+2024-09-05 09:21:21 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:06 [32minfo[39m: Return author from Redis
+2024-09-05 09:22:34 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-05 09:22:34 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:28:18 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:29:05 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:30 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:32 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-05 09:33:32 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:33:47 [32minfo[39m: Return author from Redis
+2024-09-05 09:38:44 [32minfo[39m: Return author from Redis
+2024-09-05 09:40:23 [32minfo[39m: Return author from Redis
+2024-09-05 10:29:43 [32minfo[39m: Return author from Redis
+2024-09-05 10:31:38 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:17 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:39 [32minfo[39m: Returning blog from cache with id first-image-insert-in-to-the-content-wfl_awkv8_nn7jw261ov7
+2024-09-05 10:32:39 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:42 [32minfo[39m: Returning blog from cache with id first-image-insert-in-to-the-content-wfl_awkv8_nn7jw261ov7
+2024-09-05 10:32:42 [32minfo[39m: Return author from Redis
+2024-09-05 10:32:52 [32minfo[39m: Return author from Redis
+2024-09-05 10:36:36 [31merror[39m: Error fetching blogs for user: Blog not found
+2024-09-05 10:37:43 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:38:06 [32minfo[39m: Return author from Redis
+2024-09-05 10:41:39 [32minfo[39m: Return author from Redis
+2024-09-05 10:42:41 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:42:41 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:46:31 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:46:31 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:47:12 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:47:12 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:48:29 [32minfo[39m: Returning blog from cache with id first-image-insert-in-to-the-content-wfl_awkv8_nn7jw261ov7
+2024-09-05 10:48:29 [32minfo[39m: Return author from Redis
+2024-09-05 10:48:36 [32minfo[39m: Returning blog from cache with id first-image-insert-in-to-the-content-wfl_awkv8_nn7jw261ov7
+2024-09-05 10:48:36 [32minfo[39m: Return author from Redis
+2024-09-05 10:48:57 [32minfo[39m: Return author from Redis
+2024-09-05 10:51:53 [32minfo[39m: Return author from Redis
+2024-09-05 10:52:56 [32minfo[39m: Return author from Redis
+2024-09-05 10:55:13 [32minfo[39m: Return author from Redis
+2024-09-05 10:55:28 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:55:28 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:56:44 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 11:23:42 [32minfo[39m: Return author from Redis
+2024-09-05 12:11:26 [32minfo[39m: Return author from Redis
+2024-09-05 12:11:26 [32minfo[39m: Return author from Redis
+2024-09-05 12:14:52 [32minfo[39m: Return author from Redis
+2024-09-05 12:16:59 [32minfo[39m: Return author from Redis
+2024-09-05 12:19:51 [32minfo[39m: Return author from Redis
+2024-09-05 12:37:02 [32minfo[39m: Return author from Redis
+2024-09-05 12:37:16 [32minfo[39m: Return author from Redis
+2024-09-05 12:45:14 [32minfo[39m: Return author from Redis
+2024-09-05 12:45:36 [32minfo[39m: Return author from Redis
+2024-09-05 12:46:06 [32minfo[39m: Return author from Redis
+2024-09-05 12:46:17 [32minfo[39m: Return author from Redis
+2024-09-05 12:46:53 [32minfo[39m: Return author from Redis
+2024-09-05 13:28:29 [32minfo[39m: Return author from Redis
+2024-09-05 13:28:30 [32minfo[39m: Return author from Redis
+2024-09-05 13:29:52 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-05 13:29:52 [32minfo[39m: Return author from Redis
+2024-09-05 13:34:21 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-05 13:34:21 [32minfo[39m: Return author from MongoDB
+2024-09-05 13:36:19 [32minfo[39m: Return author from Redis
+2024-09-05 13:36:19 [32minfo[39m: Return author from Redis
+2024-09-05 13:36:19 [32minfo[39m: Return author from Redis
+2024-09-05 13:36:19 [32minfo[39m: Return author from Redis
+2024-09-05 13:36:19 [32minfo[39m: Return author from MongoDB
+2024-09-05 13:36:19 [32minfo[39m: Return author from MongoDB
+2024-09-05 13:36:19 [32minfo[39m: Return author from MongoDB
+2024-09-05 13:36:19 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:41:44 [32minfo[39m: Return author from MongoDB
+2024-09-05 20:42:20 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-05 20:42:20 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:47 [32minfo[39m: Return author from Redis
+2024-09-05 20:42:55 [32minfo[39m: Returning blog from cache with id kalki-movie-2024:-everything-you-need-to-know-about-this-highly-anticipated-film-a4pi9gxuup8thztpvnx3y
+2024-09-05 20:42:55 [32minfo[39m: Return author from Redis
+2024-09-05 20:58:51 [31merror[39m: Blog with ID stories not found
+2024-09-05 20:58:51 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:25:41 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+2024-09-05 21:05:13 [31merror[39m: Blog with ID profile not found
+2024-09-05 21:05:13 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:25:51 [31merror[39m: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
-2024-08-03 01:25:51 [31merror[39m: Error: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:05:19 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 21:40:49 [32minfo[39m: Return author from Redis
+2024-09-05 22:41:47 [31merror[39m: Blog with ID profile not found
+2024-09-05 22:41:47 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:26:23 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:26:23 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-05 22:43:30 [31merror[39m: Blog with ID profile not found
+2024-09-05 22:43:30 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:26:43 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:26:43 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-05 22:49:55 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:56 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:22:57 [32minfo[39m: Return author from Redis
+2024-09-06 01:23:33 [32minfo[39m: Returning blog from cache with id sili-first-blog-vnn4vxmpkuwe1atz9g0gg
+2024-09-06 01:23:33 [32minfo[39m: Return author from Redis
+2024-09-06 16:03:10 [31merror[39m: Blog with ID library not found
+2024-09-06 16:03:10 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:27:33 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:27:33 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-06 16:03:19 [31merror[39m: Blog with ID stories not found
+2024-09-06 16:03:19 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:31:03 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
-2024-08-03 01:32:03 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:10:42 [32minfo[39m: Return author from Redis
+2024-09-06 16:24:18 [31merror[39m: Blog with ID library not found
+2024-09-06 16:24:18 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:36:36 [31merror[39m: TypeError: redisClient.KEYS is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:12:41)
-    at field.resolve (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/utils/schemaInstrumentation.js:36:28)
-    at executeField (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:492:20)
-    at executeFields (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:414:22)
-    at executeOperation (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:344:14)
-    at execute (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:136:20)
-    at executeIncrementally (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/incrementalDeliveryPolyfill.js:21:12)
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:53 [32minfo[39m: Return author from Redis
+2024-09-06 17:00:58 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-06 17:00:58 [32minfo[39m: Return author from Redis
+2024-09-06 17:01:27 [31merror[39m: Blog with ID profile not found
+2024-09-06 17:01:27 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async execute (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:228:37)
-    at async processGraphQLRequest (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:157:32)
-2024-08-03 01:37:42 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
-2024-08-03 01:37:42 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
-2024-08-03 01:37:50 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
-2024-08-03 01:37:50 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
-2024-08-03 01:38:16 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
-2024-08-03 02:28:10 [32minfo[39m: Rate limit exceeded. Try again in 1 minute.
-2024-08-03 02:28:10 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
-    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+2024-09-06 17:02:14 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-06 17:02:14 [32minfo[39m: Return author from Redis
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:44 [32minfo[39m: Return author from MongoDB
+2024-09-06 23:12:57 [31merror[39m: Blog with ID library not found
+2024-09-06 23:12:57 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 02:28:18 [32minfo[39m: Rate limit exceeded. Try again in 1 minute.
-2024-08-03 02:28:18 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
-    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+2024-09-06 23:12:59 [31merror[39m: Blog with ID stories not found
+2024-09-06 23:12:59 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 02:31:04 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
-2024-08-03 02:31:04 [32minfo[39m: Return author from MongoDB
-2024-08-03 02:31:41 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
-2024-08-03 02:31:41 [32minfo[39m: Return author from Redis
-2024-08-03 02:31:49 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
-2024-08-03 02:31:49 [32minfo[39m: Return author from MongoDB
-2024-08-03 02:40:18 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
-2024-08-03 02:40:18 [32minfo[39m: Return author from Redis
-2024-08-03 02:40:32 [32minfo[39m: Returning blog from cache with id barrett-footnote-2-or-why-smith-should-stay-in-washington-zovyxn1h1l9fsg8vytral
+2024-09-07 22:50:26 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:53:05 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:54:40 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:55:40 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:59:29 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 08:00:42 [31merror[39m: Error: Failed to set data in Redis for key users:user:kailashsurofficial: ERR syntax error
+    at setRedisData (file:///home/kailash/coding/Kedium.in/backend/utils/redis.utils.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 08:00:45 [31merror[39m: Error: Failed to set data in Redis for key users:user:kailashsurofficial: ERR syntax error
+    at setRedisData (file:///home/kailash/coding/Kedium.in/backend/utils/redis.utils.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 08:01:08 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 08:10:01 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:16:28 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 08:16:32 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:16:34 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:25 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:27 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:28 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:29 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:30 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:30 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:31 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:32 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:33 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:34 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:35 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:35 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:35 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:35 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:37 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:38 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:38 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:38 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:38 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:20:39 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:02 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:04 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:05 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:06 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:07 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:08 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:22:10 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:14 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:14 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:14 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:14 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:15 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:25:15 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:25:15 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:25:15 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:25:19 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:25:21 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:25:38 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:26:27 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:26:29 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:26:30 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:45 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:42:48 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:05 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:09 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:15 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:16 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:45 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:45 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:49 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:46:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:33 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:37 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:47:37 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:47:37 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:54:28 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:54:30 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 08:59:12 [32minfo[39m: Return author from MongoDB
+2024-09-08 09:02:11 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 09:02:12 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 09:02:12 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 09:02:13 [33mwarn[39m: Rate limit exceeded for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:14:28 [32minfo[39m: Return author from Redis
+2024-09-08 09:32:37 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 09:32:49 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 09:39:16 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:48 [32minfo[39m: Return author from Redis
+2024-09-08 09:40:58 [32minfo[39m: Returning blog from cache with id kalki-movie-2024:-everything-you-need-to-know-about-this-highly-anticipated-film-a4pi9gxuup8thztpvnx3y
+2024-09-08 09:40:58 [32minfo[39m: Return author from Redis
+2024-09-08 09:41:10 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 09:41:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:45:54 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:46:36 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:47:10 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 09:50:44 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:18:49 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:27 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:21:50 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:22:28 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:25:52 [32minfo[39m: Return author from Redis
+2024-09-08 10:26:00 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 10:26:00 [32minfo[39m: Return author from Redis
+2024-09-08 10:26:04 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 10:26:04 [32minfo[39m: Return author from Redis
+2024-09-08 10:26:06 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 10:26:06 [32minfo[39m: Return author from Redis
+2024-09-08 10:26:09 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 10:26:09 [32minfo[39m: Return author from Redis
+2024-09-08 10:26:34 [33mwarn[39m: Rate limit exceeded for IP null: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 10:26:35 [33mwarn[39m: Rate limit exceeded for IP null: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 10:36:09 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 10:39:37 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 10:39:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 10:39:51 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 10:41:40 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 10:41:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 10:43:23 [32minfo[39m: Return author from Redis
+2024-09-08 11:08:26 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:09:03 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:13:17 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:26:04 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 11:26:42 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 11:30:51 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:31:57 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:31:57 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:36:32 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:36:32 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:37:40 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:40:15 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:41:05 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 11:45:07 [32minfo[39m: Data set in cache for key: users:user:unqcon
+2024-09-08 12:54:43 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 13:00:34 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:02:23 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:44 [32minfo[39m: Return author from Redis
+2024-09-08 13:02:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:03:18 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:31 [32minfo[39m: Return author from Redis
+2024-09-08 13:03:33 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:03:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:04:00 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:06:30 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:16 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:20 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:41 [32minfo[39m: Return author from Redis
+2024-09-08 13:07:45 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:07:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:08:13 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:09:45 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 13:10:12 [32minfo[39m: Data set in cache for key: users:user:unqcon
+2024-09-08 13:10:40 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:10:42 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:13:20 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:13:29 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:03 [32minfo[39m: Return author from Redis
+2024-09-08 13:14:08 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 13:14:08 [32minfo[39m: Return author from Redis
+2024-09-08 13:16:28 [32minfo[39m: Returning blog from cache with id on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd
+2024-09-08 13:16:28 [32minfo[39m: Return author from Redis
+2024-09-08 13:19:09 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 13:19:18 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 13:19:18 [32minfo[39m: Return author from Redis
+2024-09-08 13:19:22 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 13:19:22 [32minfo[39m: Return author from Redis
+2024-09-08 13:19:26 [32minfo[39m: Returning blog from cache with id a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf
+2024-09-08 13:19:26 [32minfo[39m: Return author from Redis
+2024-09-08 13:21:52 [31merror[39m: Blog with ID on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+2024-09-08 13:21:52 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:23:15 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:23:23 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 13:27:59 [32minfo[39m: Data set in cache for key: blogs:blog:the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 13:27:59 [32minfo[39m: Return author from MongoDB
+2024-09-08 13:28:00 [32minfo[39m: Returning blog from cache with id the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 13:28:00 [32minfo[39m: Return author from Redis
+2024-09-08 14:37:38 [32minfo[39m: Return author from Redis
+2024-09-08 14:37:50 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 14:38:59 [32minfo[39m: Returning blog from cache with id the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 14:38:59 [32minfo[39m: Return author from Redis
+2024-09-08 14:42:20 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 15:12:11 [32minfo[39m: Returning blog from cache with id the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 15:12:11 [32minfo[39m: Return author from Redis
+2024-09-08 15:12:34 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 15:17:03 [31merror[39m: Blog with ID a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf not found
+2024-09-08 15:17:03 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:17:16 [31merror[39m: Blog with ID a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf not found
+2024-09-08 15:17:16 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:17:28 [32minfo[39m: Data set in cache for key: blogs:blog:the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 15:17:28 [32minfo[39m: Return author from MongoDB
+2024-09-08 15:20:02 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-08 15:20:08 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 15:21:25 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-08 15:24:28 [32minfo[39m: Data set in cache for key: blogs:blog:the-ultimate-software-architect-knowledge-map-3dzdqyj8r3m9itpu7ffu8
+2024-09-08 15:24:28 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:24:28 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:06 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:06 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:06 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:06 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:38 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:38 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:38 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:38 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:26:35 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:26:35 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:26:35 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:26:35 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:34:34 [32minfo[39m: Data set in cache for key: blogs:blog:test-nwtycz8xfmakc7wbbrtth
+2024-09-08 15:34:34 [32minfo[39m: Return author from MongoDB
+2024-09-08 15:34:36 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-08 15:34:36 [32minfo[39m: Return author from Redis
+2024-09-08 15:38:41 [32minfo[39m: Data set in cache for key: blogs:blog:test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-08 15:38:41 [32minfo[39m: Return author from Redis
+2024-09-08 15:38:42 [32minfo[39m: Returning blog from cache with id test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-08 15:38:42 [32minfo[39m: Return author from Redis
+2024-09-08 15:39:19 [32minfo[39m: Return author from Redis
+2024-09-08 15:39:19 [32minfo[39m: Return author from Redis
+2024-09-08 15:41:02 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:41:29 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-08 15:41:47 [32minfo[39m: Data set in cache for key: blogs:blog:test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-08 15:41:47 [32minfo[39m: Return author from MongoDB
+2024-09-08 15:45:09 [31merror[39m: Blog with ID library not found
+2024-09-08 15:45:09 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:49:22 [32minfo[39m: Return author from Redis
+2024-09-08 15:49:24 [32minfo[39m: Returning blog from cache with id test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-08 15:49:24 [32minfo[39m: Return author from Redis
+2024-09-08 18:12:05 [32minfo[39m: Return author from Redis
+2024-09-08 18:12:14 [32minfo[39m: Returning blog from cache with id test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-08 18:12:14 [32minfo[39m: Return author from Redis
+2024-09-08 18:13:24 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-08 18:13:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 00:50:02 [32minfo[39m: Return author from Redis
+2024-09-09 00:50:25 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 01:09:01 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:13:19 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 01:14:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:14:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:16:10 [32minfo[39m: Return author from MongoDB
+2024-09-09 01:16:10 [32minfo[39m: Return author from MongoDB
+2024-09-09 01:16:16 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:20:07 [32minfo[39m: Returning blog from cache with id test-2-blog-hvwrhkt11krgt34ttbhyv
+2024-09-09 01:20:07 [32minfo[39m: Return author from Redis
+2024-09-09 01:20:12 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:20:56 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:20:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:34:03 [32minfo[39m: Return author from Redis
+2024-09-09 01:34:03 [32minfo[39m: Return author from Redis
+2024-09-09 01:34:06 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 01:40:57 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 01:40:57 [32minfo[39m: Return author from Redis
+2024-09-09 01:40:59 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:50:53 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 02:50:55 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:50:57 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:57:50 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:58:26 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 02:58:26 [32minfo[39m: Return author from Redis
+2024-09-09 02:58:29 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:58:31 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:58:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 02:58:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 03:06:05 [31merror[39m: Blog with ID list not found
+2024-09-09 03:06:05 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 03:06:27 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 18:59:55 [32minfo[39m: Return author from Redis
+2024-09-09 18:59:55 [32minfo[39m: Return author from Redis
+2024-09-09 19:00:19 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 19:00:19 [32minfo[39m: Return author from Redis
+2024-09-09 19:00:39 [31merror[39m: Blog with ID library not found
+2024-09-09 19:00:39 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:00:45 [31merror[39m: Blog with ID stories not found
+2024-09-09 19:00:45 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:01:13 [31merror[39m: Blog with ID list not found
+2024-09-09 19:01:13 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:01:17 [31merror[39m: Blog with ID about not found
+2024-09-09 19:01:17 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:11:42 [32minfo[39m: Return author from Redis
+2024-09-09 19:11:42 [32minfo[39m: Return author from Redis
+2024-09-09 19:12:04 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 19:12:04 [32minfo[39m: Return author from Redis
+2024-09-09 19:24:39 [31merror[39m: Blog with ID about not found
+2024-09-09 19:24:39 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:27:22 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 21:50:49 [32minfo[39m: Return author from Redis
+2024-09-09 21:50:49 [32minfo[39m: Return author from Redis
+2024-09-09 21:52:57 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 21:52:57 [32minfo[39m: Return author from Redis
+2024-09-09 21:53:00 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 21:53:09 [31merror[39m: Blog with ID list not found
+2024-09-09 21:53:09 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 22:04:46 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:05:03 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:05:05 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:05:07 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:05:08 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:12:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:15:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:12 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:34 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:36 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:39 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:16:40 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:24:53 [32minfo[39m: Return author from Redis
+2024-09-09 22:24:53 [32minfo[39m: Return author from Redis
+2024-09-09 22:26:51 [32minfo[39m: Returning blog from cache with id test-nwtycz8xfmakc7wbbrtth
+2024-09-09 22:26:51 [32minfo[39m: Return author from Redis
+2024-09-09 22:26:54 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:26:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 22:26:59 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 23:55:46 [32minfo[39m: Return author from Redis
+2024-09-09 23:55:46 [32minfo[39m: Return author from Redis
+2024-09-09 23:55:50 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-09 23:56:57 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 23:56:59 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 23:57:00 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 23:57:05 [31merror[39m: Blog with ID about not found
+2024-09-09 23:57:05 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 23:58:00 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-09 23:58:15 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:00:02 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:00:03 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:05:30 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:07:07 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:07:08 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:07:09 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:07:10 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:18:21 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:18:38 [32minfo[39m: Return author from Redis
+2024-09-10 00:18:38 [32minfo[39m: Return author from Redis
+2024-09-10 00:20:35 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 00:20:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:20:46 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:23:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:23:27 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:29:18 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:30:10 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:32:09 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 00:32:21 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:32:22 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:32:23 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:32:53 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:44:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:44:47 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 00:47:09 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 00:50:21 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 01:02:21 [32minfo[39m: Data set in cache for key: blogs:blog:first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:02:21 [32minfo[39m: Return author from MongoDB
+2024-09-10 01:02:22 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:02:22 [32minfo[39m: Return author from Redis
+2024-09-10 01:02:44 [32minfo[39m: Return author from Redis
+2024-09-10 01:05:39 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:05:41 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:19:15 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 01:28:42 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 01:28:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:28:52 [32minfo[39m: Return author from MongoDB
+2024-09-10 01:29:14 [32minfo[39m: Return author from Redis
+2024-09-10 01:29:19 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:29:19 [32minfo[39m: Return author from Redis
+2024-09-10 01:29:21 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:29:23 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:29:36 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:29:37 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:31:59 [32minfo[39m: Data set in cache for key: blogs:blog:first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:31:59 [32minfo[39m: Return author from MongoDB
+2024-09-10 01:32:00 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 01:33:00 [32minfo[39m: Return author from Redis
+2024-09-10 01:33:04 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:33:04 [32minfo[39m: Return author from Redis
+2024-09-10 01:33:07 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:33:34 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:34:09 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:36:08 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:36:17 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:42:20 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 01:45:01 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:45:29 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:45:55 [32minfo[39m: Return author from MongoDB
+2024-09-10 01:46:01 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 01:46:01 [32minfo[39m: Return author from Redis
+2024-09-10 01:46:03 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:56:22 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 01:56:38 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 01:56:49 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 01:56:52 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 01:56:53 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:09:58 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 02:09:58 [32minfo[39m: Return author from Redis
+2024-09-10 02:10:01 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:18:11 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:19:05 [32minfo[39m: Return author from Redis
+2024-09-10 02:19:07 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 02:19:07 [32minfo[39m: Return author from Redis
+2024-09-10 02:19:09 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:19:11 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 02:19:20 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:22:55 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:23:57 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 02:31:05 [32minfo[39m: Data set in cache for key: blogs:blog:first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 02:31:05 [32minfo[39m: Return author from MongoDB
+2024-09-10 02:31:06 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 02:51:18 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 02:51:18 [32minfo[39m: Return author from Redis
+2024-09-10 02:51:20 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 03:04:17 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 10:22:48 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 10:24:03 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 10:26:37 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 10:28:10 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 10:29:00 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 10:29:14 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 10:29:39 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 10:34:04 [32minfo[39m: Return author from MongoDB
+2024-09-10 10:34:23 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 10:34:42 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 11:09:30 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 11:09:51 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 11:09:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 11:10:10 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 11:50:17 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 11:50:35 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 11:50:35 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 11:51:04 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 11:51:04 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 12:10:09 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 12:10:09 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 12:10:47 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 12:10:47 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 12:10:49 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:10:53 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:10:54 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:14:20 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:14:22 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:14:24 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:14:25 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:14:27 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:20:31 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 12:21:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:41:48 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:41:54 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 12:42:43 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:42:56 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:51:20 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:57:30 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:57:34 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 12:58:18 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 12:58:20 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 13:04:13 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 13:04:28 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 13:04:41 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 13:37:59 [32minfo[39m: Return author from MongoDB
+2024-09-10 13:45:11 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 13:51:59 [32minfo[39m: Return author from Redis
+2024-09-10 13:55:47 [32minfo[39m: Return author from Redis
+2024-09-10 13:55:52 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 13:55:52 [32minfo[39m: Return author from Redis
+2024-09-10 14:00:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:01:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:07:13 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:11:49 [32minfo[39m: Return author from Redis
+2024-09-10 14:12:21 [32minfo[39m: Data set in cache for key: users:user:@sopnapatrainfo
+2024-09-10 14:12:23 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:25 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:29 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:32 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:33 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:33 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:33 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:33 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:34 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:34 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:35 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:12:35 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:44:07 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:45:01 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:45:25 [32minfo[39m: Data set in cache for key: users:user:@kailashchandrasur00
+2024-09-10 14:45:30 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:46:00 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 14:46:05 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 14:46:09 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 14:46:47 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 14:48:31 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:07:47 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:08:17 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:08:18 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:09:51 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:09:52 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:18:44 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:18:50 [32minfo[39m: Data set in cache for key: users:user:@sopnapatrainfo
+2024-09-10 15:19:04 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:19:05 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:21:12 [32minfo[39m: Data set in cache for key: users:user:kailashchandrasur00
+2024-09-10 15:21:12 [32minfo[39m: Data set in cache for key: user:66df57699a0c4e59d818aa86
+2024-09-10 15:21:12 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 15:21:19 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:21:20 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:21:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:21:26 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:21:41 [32minfo[39m: Data set in cache for key: users:user:@sopnapatrainfo
+2024-09-10 15:21:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:21:46 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:21:47 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:21:54 [32minfo[39m: Data set in cache for key: users:user:@kailashchandrasur00
+2024-09-10 15:21:56 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:21:57 [32minfo[39m: Returning user from cache with username @kailashchandrasur00
+2024-09-10 15:32:08 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:32:43 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:32:51 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:32:52 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:33:31 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:33:48 [32minfo[39m: Return author from MongoDB
+2024-09-10 15:33:51 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 15:33:51 [32minfo[39m: Return author from Redis
+2024-09-10 15:33:52 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:33:56 [32minfo[39m: Data set in cache for key: users:user:kailashsurofficial
+2024-09-10 15:33:56 [32minfo[39m: Data set in cache for key: user:66e0197dcee7d9da8bd1b1ac
+2024-09-10 15:33:56 [32minfo[39m: Data set in cache for key: users:user:sopnapatrainfo
+2024-09-10 15:34:22 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:34:31 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:34:31 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:44:56 [32minfo[39m: Data set in cache for key: users:user:@sopnapatrainfo
+2024-09-10 15:44:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:45:04 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:45:08 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:45:15 [32minfo[39m: Data set in cache for key: users:user:@kailashsurofficial
+2024-09-10 15:45:20 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 15:57:56 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 15:57:56 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 15:58:04 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 15:58:05 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 15:59:23 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:01:59 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:02:00 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:02:01 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:02:02 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:02:10 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:02:11 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:07:14 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:07:14 [32minfo[39m: Data set in cache for key: users:user:username:sopnapatrainfo
+2024-09-10 16:09:21 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:09:21 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:10:05 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:10:26 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:10:27 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:31 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:32 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:41 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:13:41 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:13:43 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:45 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:13:55 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:13:56 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:21:55 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:21:55 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:21:55 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:21:55 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:22:00 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:22:01 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:22:04 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:22:04 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:22:09 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:22:09 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:22:09 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:22:09 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:22:12 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:22:13 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:11 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:12 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:16 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:24:16 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:24:16 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:24:16 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:24:19 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:20 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:42 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:44 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:45 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:24:45 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:24:45 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:24:45 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:24:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:48 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:24:50 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:19 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:21 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:23 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:24 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:49 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:49 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:51 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:52 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:27:54 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:28:03 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:28:04 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:28:06 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:28:07 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:00 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:01 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:44 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:49 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:52 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:29:52 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:29:52 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:29:52 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:29:55 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:56 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:29:57 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:30:07 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:30:07 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:30:07 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:30:07 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:30:11 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:30:12 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:34 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:35 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:36 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:41 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:31:41 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:31:41 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:31:41 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:31:42 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:45 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:31:45 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:31:45 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:31:45 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:31:46 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:31:47 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:32:56 [32minfo[39m: Return author from MongoDB
+2024-09-10 16:32:58 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:32:58 [32minfo[39m: Return author from Redis
+2024-09-10 16:46:06 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:46:06 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:46:08 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:46:12 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:46:12 [32minfo[39m: Return author from Redis
+2024-09-10 16:47:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 16:47:51 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:47:51 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:47:51 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:47:51 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:47:55 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 16:48:01 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:48:01 [32minfo[39m: Return author from Redis
+2024-09-10 16:52:55 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:53:01 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:53:05 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:53:05 [32minfo[39m: Return author from Redis
+2024-09-10 16:53:06 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 16:53:10 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:53:10 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:53:10 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:53:10 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 16:53:15 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:53:17 [32minfo[39m: Returning user from cache with username @kailashsurofficial
+2024-09-10 16:53:21 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:53:21 [32minfo[39m: Return author from Redis
+2024-09-10 16:53:22 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 16:53:30 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:53:30 [32minfo[39m: Return author from Redis
+2024-09-10 16:53:33 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 16:53:33 [32minfo[39m: Return author from Redis
+2024-09-10 16:59:36 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 16:59:36 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 16:59:36 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 16:59:36 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 17:00:21 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:03:36 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:04:07 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 17:06:00 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:06:38 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 17:06:38 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:09:11 [32minfo[39m: Data set in cache for key: blogs:blog:first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:09:11 [32minfo[39m: Return author from MongoDB
+2024-09-10 17:09:23 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:09:23 [32minfo[39m: Return author from Redis
+2024-09-10 17:09:28 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:09:30 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:09:36 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:09:36 [32minfo[39m: Return author from Redis
+2024-09-10 17:09:40 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:09:40 [32minfo[39m: Return author from Redis
+2024-09-10 17:09:58 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:11:29 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:11:29 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:11:41 [32minfo[39m: Return author from Redis
+2024-09-10 17:11:47 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:11:47 [32minfo[39m: Return author from Redis
+2024-09-10 17:11:49 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:11:53 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:11:53 [32minfo[39m: Return author from Redis
+2024-09-10 17:11:58 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:11:58 [32minfo[39m: Return author from Redis
+2024-09-10 17:12:02 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:12:02 [32minfo[39m: Return author from Redis
+2024-09-10 17:12:04 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:12:07 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:12:27 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:24:24 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:24:28 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:24:28 [32minfo[39m: Return author from Redis
+2024-09-10 17:25:04 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:25:45 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:25:48 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:25:48 [32minfo[39m: Return author from Redis
+2024-09-10 17:25:55 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:25:55 [32minfo[39m: Return author from Redis
+2024-09-10 17:26:04 [32minfo[39m: Data set in cache for key: users:user:id:66e0197dcee7d9da8bd1b1ac
+2024-09-10 17:26:04 [32minfo[39m: Data set in cache for key: users:user:username:@kailashsurofficial
+2024-09-10 17:26:04 [32minfo[39m: Data set in cache for key: users:user:id:66df431e4d74484020660df1
+2024-09-10 17:26:04 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 17:26:05 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:26:05 [32minfo[39m: Return author from Redis
+2024-09-10 17:27:30 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:27:30 [32minfo[39m: Return author from Redis
+2024-09-10 17:28:02 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:28:06 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:28:52 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:29:10 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:29:10 [32minfo[39m: Return author from Redis
+2024-09-10 17:29:15 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 17:29:15 [32minfo[39m: Return author from Redis
+2024-09-10 17:30:54 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:30:54 [32minfo[39m: Return author from Redis
+2024-09-10 17:31:22 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:31:36 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 17:31:36 [32minfo[39m: Return author from Redis
+2024-09-10 19:33:14 [32minfo[39m: Return author from MongoDB
+2024-09-10 19:35:47 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 19:35:47 [32minfo[39m: Return author from Redis
+2024-09-10 19:36:01 [32minfo[39m: Data set in cache for key: users:user:username:@sopnapatrainfo
+2024-09-10 19:36:01 [32minfo[39m: Return author from Redis
+2024-09-10 19:38:34 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 19:38:34 [32minfo[39m: Return author from Redis
+2024-09-10 19:42:03 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 19:42:03 [32minfo[39m: Return author from Redis
+2024-09-10 19:44:16 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 19:45:44 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 19:45:44 [32minfo[39m: Return author from Redis
+2024-09-10 19:48:30 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 19:48:30 [32minfo[39m: Return author from Redis
+2024-09-10 19:48:31 [32minfo[39m: Returning user from cache with username @sopnapatrainfo
+2024-09-10 19:48:31 [32minfo[39m: Return author from Redis
+2024-09-10 19:48:41 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 19:48:41 [32minfo[39m: Return author from Redis
+2024-09-10 20:01:45 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:01:45 [32minfo[39m: Return author from Redis
+2024-09-10 20:02:36 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:02:36 [32minfo[39m: Return author from Redis
+2024-09-10 20:03:46 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:03:46 [32minfo[39m: Return author from Redis
+2024-09-10 20:06:24 [32minfo[39m: Return author from Redis
+2024-09-10 20:07:02 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:07:02 [32minfo[39m: Return author from Redis
+2024-09-10 20:07:30 [32minfo[39m: Return author from Redis
+2024-09-10 20:10:14 [32minfo[39m: Return author from Redis
+2024-09-10 20:26:23 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:26:23 [32minfo[39m: Return author from Redis
+2024-09-10 20:33:25 [32minfo[39m: Returning blog from cache with id first-story-5y6rv9dvoase__enfxx2t
+2024-09-10 20:33:25 [32minfo[39m: Return author from Redis

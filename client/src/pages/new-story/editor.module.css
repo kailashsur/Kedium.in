@@ -1,0 +1,90 @@
+/*styles/module.editor.css */
+
+.editor article {
+    @apply font-Mori text-base select-none dark:text-primary-dark-text;
+}
+
+.editor h1 {
+    @apply text-primary-text font-MoriSemiBold selection:bg-purple-400 selection:text-white dark:text-primary-dark-text;
+}
+
+.editor h2 {
+    @apply text-primary-text dark:text-primary-dark-text hover:underline hover:decoration-sky-500 hover:decoration-wavy pt-6 pb-4 text-2xl font-bold selection:bg-lime-500 selection:text-white hover:cursor-pointer  ;
+}
+
+
+.editor p {
+    @apply text-base text-primary-text dark:text-paragraph-dark pt-4 selection:bg-orange-500 selection:text-white ;
+}
+
+.editor a {
+    @apply text-indigo-500 dark:text-link-lime dark:hover:text-link-lime font-semibold hover:text-indigo-500 hover:underline transition-all duration-200 ease-in-out ;
+}
+
+.editor img {
+    @apply w-full h-auto object-cover rounded-sm ;
+}
+
+.editor blockquote {
+    @apply text-base text-primary-text border-l-4 border-primary-text pl-4 py-2 my-4 ;
+}
+
+.editor strong {
+    @apply font-MoriSemiBold text-primary-dart-background dark:text-primary-dark-text font-bold ;
+}
+
+.editor ul {
+    @apply list-disc pl-6 text-primary-text ;
+}
+
+.editor ol {
+    @apply list-decimal pl-6 text-primary-text ;
+}
+
+.editor li {
+    @apply text-base text-primary-text font-bold ;
+}
+
+.editor code {
+    @apply text-sm text-primary-text bg-zinc-100 p-1 rounded-sm ;
+}
+
+.editor pre {
+    @apply text-sm text-primary-text bg-zinc-100 p-1 rounded-sm ;
+}
+
+.editor hr {
+    @apply border-t-2 border-primary-text my-4 ;
+}
+
+.editor table {
+    @apply w-full text-primary-text border-collapse ;
+}
+
+.editor th {
+    @apply text-base text-primary-text font-bold border border-primary-text p-2 ;
+}
+
+.editor td {
+    @apply text-base text-primary-text border border-primary-text p-2 ;
+}
+
+.editor thead {
+    @apply text-base text-primary-text font-bold ;
+}
+
+.editor tbody {
+    @apply text-base text-primary-text ;
+}
+
+.editor tr {
+    @apply text-base text-primary-text ;
+}
+
+.editor .gatsby-highlight {
+    @apply my-4 bg-lime-400 ;
+}
+
+.editor iframe {
+    @apply w-full h-auto rounded-lg my-4 shadow-lg  ;
+}

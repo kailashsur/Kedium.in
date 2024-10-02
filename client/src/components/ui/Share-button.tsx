@@ -1,0 +1,67 @@
+import React from "react";
+import toast from "react-hot-toast";
+
+function ShareButton({ slug }: { slug?: string }) {
+  const [sharedLink, setSharedLink] = React.useState<string>("");
+
+  const handleCopyLink = (link: string) => {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(link).then(
+        () => {
+          toast.success("Link copied to clipboard");
+        },
+        (err) => {
+          toast.error("Failed to copy link to clipboard");
+        },
+      );
+    } else {
+      alert("Copying to clipboard is not supported in your browser.");
+    }
+  };
+
+  const handleShare = () => {
+    const link = slug
+      ? `${window.location.origin}/${slug}`
+      : `${window.location.href}`;
+    setSharedLink(link);
+
+    if (navigator.share) {
+      navigator
+        .share({
+          title: "Check out this clock!",
+          text: "Here is a link to view the clock with the same configuration:",
+          url: link,
+        })
+        .then(() => console.log("Successful share"))
+        .catch((error) => console.log("Error sharing", error));
+    } else {
+      // Fallback for browsers that don't support the Web Share API
+      // Copyed to the clipboard
+      handleCopyLink(link);
+    }
+  };
+
+  return (
+    <button
+      onClick={handleShare}
+      className="flex items-center gap-2 px-4 py-2 rounded-full text-textGrey hover:text-black transition-all duration-300 ease-in-out"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          fillRule="evenodd"
+          d="M15.218 4.931a.4.4 0 0 1-.118.132l.012.006a.45.45 0 0 1-.292.074.5.5 0 0 1-.3-.13l-2.02-2.02v7.07c0 .28-.23.5-.5.5s-.5-.22-.5-.5v-7.04l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-.16-.3.4.4 0 0 1 .1-.32l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.79a.42.42 0 0 1 .068.498m-.106.138.008.004v-.01zM16 7.063h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11c-1.1 0-2-.9-2-2v-10a2 2 0 0 1 2-2H8a.5.5 0 0 1 .35.15.5.5 0 0 1 .15.35.5.5 0 0 1-.15.35.5.5 0 0 1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.2c.5 0 .9-.4.9-.9v-10.2c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1"
+          clipRule="evenodd"
+        ></path>
+      </svg>
+    </button>
+  );
+}
+
+export default ShareButton;

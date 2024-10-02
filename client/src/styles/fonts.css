@@ -1,0 +1,81 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'Mori-ExtraLight';
+    src: url('../fonts/mori/PPMori-Extralight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori-ExtraLight-italic';
+    src: url('../fonts/mori/PPMori-ExtralightItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori-Regular';
+    src: url('../fonts/mori/PPMori-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori-Regular-italic';
+    src: url('../fonts/mori/PPMori-RegularItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori-SemiBold';
+    src: url('../fonts/mori/PPMori-SemiBold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori-SemiBold-italic';
+    src: url('../fonts/mori/PPMori-SemiBoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Copernicus";
+    src:
+        url("/fonts/CopernicusTrial-Medium-BF66160450d988d.ttf") format("ttf"),
+        url("/fonts/CopernicusTrial-Medium-BF66160450d988d.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Copernicus";
+    src:
+        url("/fonts/CopernicusTrial-Semibold-BF66160451692c7.ttf") format("ttf"),
+        url("/fonts/CopernicusTrial-Semibold-BF66160451692c7.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* styles/fonts.css */
+@font-face {
+    font-family: "Charter";
+    src:
+        url("/public/fonts/charter_regular-webfont.woff") format("woff"),
+        url("/public/fonts/charter_bold-webfont.woff") format("woff"),
+        url("/public/fonts/Charter\ Regular.ttf") format("truetype"),
+        url("/public/fonts/Charter\ Bold.ttf") format("truetype"),
+        url("/public/fonts/Charter\ Regular.otf") format("opentype"),
+        url("/public/fonts/Charter\ Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

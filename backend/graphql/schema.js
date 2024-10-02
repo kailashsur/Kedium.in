@@ -26,9 +26,20 @@ type Activity {
 
 type Profile{
   profile_img : String
+  cover_img : String
   bio : String
   profile_color : String
 }
+
+type Social_links {
+    youtube: String
+    instagram: String
+    facebook: String
+    twitter: String
+    github: String
+    website: String
+  }
+
 
 type User {
   _id: ID!
@@ -36,14 +47,39 @@ type User {
   email: String!
   username : String
   profile : Profile
+
+  role: String
+  verified: Boolean
+  interested_in : [String]
+  reading_list : [Blog]
+  total_posts : Int
+  followers_count : Int
+  following_count : Int
+  followers : [User]
+  following : [User]
+  social_links : Social_links
+  google_auth : Boolean
+  pinned_post : [Blog]
+  blogs : [Blog]
+  joinedAt : String!
+  updatedAt : String!
 }
 `;
 
 const queryType = `
   type Query {
     getBlog(blog_id: String!): Blog
-    getBlogs(limit : Int): [Blog]
+    getBlogs(
+    limit : Int
+    ip : String
+    ): [Blog]
     cacheAll : [Blog]
+
+    getUser(username: String!): User
+
+
+    getUserBlogs(username: String!): [Blog]
+    getUserBlog( blog_id : String!) : Blog
   }
 `;
 
@@ -72,6 +108,10 @@ const mutationType = `
   ): Blog
 
   deleteBlog(blog_id: String!): Blog
+
+
+  like(blog_id: String!): String!
+  total_reads(blog_id: String!): String!
 }
 `;
 

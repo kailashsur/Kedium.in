@@ -20,7 +20,6 @@ import blogRoutes from "./routes/blogRoutes.js";
 
 import redisClient from "./config/redis.js";
 import { authorized } from "./lib/services.graphql.js";
-import { connectKafka } from "./config/kafka.js";
 import logger from "./utils/logger.js";
 
 //-----Import Statement End -----
@@ -39,7 +38,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true })); // Increase t
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: [process.env.CLIENT_ORIGIN],
     credentials: true,
   }),
 );
@@ -98,5 +97,4 @@ app.use(errorHandler);
 // Start the server
 app.listen(PORT, async () => {
   console.log(`🚀 Server ready at http://localhost:${PORT}`);
-  // await connectKafka();
 });

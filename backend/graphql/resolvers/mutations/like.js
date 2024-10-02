@@ -1,18 +1,14 @@
 import Blog from "../../../models/Blog.js";
-import { producer } from "../../../config/kafka.js";
+import redisClient from "../../../config/redis.js";
 
-export const like = async (_, { blogId }, context) => {
-  try {
-    // Produce a message to Kafka
-    await producer.send({
-      topic: "like-topic",
-      messages: [
-        { value: JSON.stringify({ blogId, userId: context.user.id }) }, // Include userId if needed
-      ],
-    });
-    return { success: true, message: "Like recorded" };
-  } catch (error) {
-    console.error("Error producing Kafka message:", error);
-    return { success: false, message: "Error recording like" };
+export const like = async (_, { blog_id }, { authorization }) => {
+  const user_id = authorization?.user;
+  const likesKey = `blogs:activity:${blog_id}:total_likes`;
+
+  if (user_id) {
+    const newTotalLikes = await redisClient.incr(likesKey);
+
+    return "Liked!";
   }
+  return new Error("Unauthorized");
 };

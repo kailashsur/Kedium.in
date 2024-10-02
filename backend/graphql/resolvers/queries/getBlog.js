@@ -4,7 +4,8 @@ import redisClient from "../../../config/redis.js";
 import { setRedisData } from "../../../utils/redis.utils.js";
 import logger from "../../../utils/logger.js"; // Assuming you have a logger utility
 
-export default async function getBlog(_, { blog_id }) {
+export default async function getBlog(_, { blog_id }, context) {
+  // Check if the user is authorized
   const cacheKey = `blogs:blog:${blog_id}`;
   try {
     // Fetch blog from cache
@@ -37,7 +38,7 @@ export default async function getBlog(_, { blog_id }) {
     });
 
     // Cache data asynchronously
-    setRedisData(cacheKey, blogData, 3600 * 168).catch((error) => {
+    setRedisData(cacheKey, blogData, 3600 * 24).catch((error) => {
       logger.error(`Error setting data in cache for key ${cacheKey}:`, error);
     });
 

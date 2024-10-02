@@ -1,0 +1,34 @@
+src/
+│
+├── config/                   # Configuration files
+│   ├── db.ts                 # MongoDB connection
+│   ├── email.ts              # Nodemailer email setup
+│   └── env.ts                # Environment variables (dotenv)
+│
+├── controllers/              # All controllers
+│   ├── auth.controller.ts    # Handles registration, login, logout, OTP, password reset
+│
+├── middlewares/              # Custom middlewares
+│   ├── auth.middleware.ts    # JWT validation and role protection
+│   ├── rateLimiter.ts        # Rate limiting
+│
+├── models/                   # Mongoose models
+│   └── user.model.ts         # User schema
+│
+├── routes/                   # Routes for API
+│   └── auth.routes.ts        # Auth routes (registration, login, etc.)
+│
+├── services/                 # Business logic (email, JWT, etc.)
+│   ├── otp.service.ts        # OTP generation/validation
+│   ├── token.service.ts      # JWT token generation/validation
+│   └── user.service.ts       # User-related business logic
+│
+├── utils/                    # Utility functions
+│   ├── validators.ts         # Input validation
+│   └── errorHandlers.ts      # Custom error handling
+│
+├── app.ts                    # Express app setup
+└── server.ts                 # App entry point
+
+
+Verbo

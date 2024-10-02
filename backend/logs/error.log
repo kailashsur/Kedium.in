@@ -1,42 +1,241 @@
-2024-08-03 01:24:27 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+
+2024-08-29 12:47:49 [31merror[39m: Error fetching blogs for user: Schema hasn't been registered for model "users".
+Use mongoose.model(name, schema)
+2024-08-29 12:50:44 [31merror[39m: Error fetching blogs for user: Schema hasn't been registered for model "users".
+Use mongoose.model(name, schema)
+2024-09-05 09:33:32 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-05 10:36:36 [31merror[39m: Error fetching blogs for user: Blog not found
+2024-09-05 10:37:43 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:42:41 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:42:41 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:46:31 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:46:31 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:47:12 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:47:12 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:55:28 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 10:55:28 [31merror[39m: Error fetching blogs for user: Blog not found, You are not authorized to Edit this blog.
+2024-09-05 13:34:21 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-05 20:58:51 [31merror[39m: Blog with ID stories not found
+2024-09-05 20:58:51 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:25:41 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+2024-09-05 21:05:13 [31merror[39m: Blog with ID profile not found
+2024-09-05 21:05:13 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:25:51 [31merror[39m: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
-2024-08-03 01:25:51 [31merror[39m: Error: Blog with ID full-mid-dupled-gzfwsr4lafp5-zbpldaru not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-05 22:41:47 [31merror[39m: Blog with ID profile not found
+2024-09-05 22:41:47 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:26:23 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:26:23 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-05 22:43:30 [31merror[39m: Blog with ID profile not found
+2024-09-05 22:43:30 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:26:43 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:26:43 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-06 16:03:10 [31merror[39m: Blog with ID library not found
+2024-09-06 16:03:10 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:27:33 [31merror[39m: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-2024-08-03 01:27:33 [31merror[39m: Error: Blog with ID blog:on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
-    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:22:13)
+2024-09-06 16:03:19 [31merror[39m: Blog with ID stories not found
+2024-09-06 16:03:19 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:32:03 [31merror[39m: TypeError: redisClient.pipeline is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:14:36)
+2024-09-06 16:24:18 [31merror[39m: Blog with ID library not found
+2024-09-06 16:24:18 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 01:36:36 [31merror[39m: TypeError: redisClient.KEYS is not a function
-    at Object.getBlogs (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlogs.js:12:41)
-    at field.resolve (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/utils/schemaInstrumentation.js:36:28)
-    at executeField (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:492:20)
-    at executeFields (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:414:22)
-    at executeOperation (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:344:14)
-    at execute (/home/kailash/coding/Kedium.in/backend/node_modules/graphql/execution/execute.js:136:20)
-    at executeIncrementally (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/incrementalDeliveryPolyfill.js:21:12)
+2024-09-06 17:01:27 [31merror[39m: Blog with ID profile not found
+2024-09-06 17:01:27 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async execute (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:228:37)
-    at async processGraphQLRequest (file:///home/kailash/coding/Kedium.in/backend/node_modules/@apollo/server/dist/esm/requestPipeline.js:157:32)
-2024-08-03 02:28:10 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
-    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+2024-09-06 23:12:57 [31merror[39m: Blog with ID library not found
+2024-09-06 23:12:57 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-2024-08-03 02:28:18 [31merror[39m: Error: Rate limit exceeded. Try again in 1 minute.
-    at Object.cacheAll (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/cacheAll.js:16:13)
+2024-09-06 23:12:59 [31merror[39m: Blog with ID stories not found
+2024-09-06 23:12:59 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-07 22:50:26 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:53:05 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:54:40 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:55:40 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 07:59:29 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 08:00:42 [31merror[39m: Error: Failed to set data in Redis for key users:user:kailashsurofficial: ERR syntax error
+    at setRedisData (file:///home/kailash/coding/Kedium.in/backend/utils/redis.utils.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 08:00:45 [31merror[39m: Error: Failed to set data in Redis for key users:user:kailashsurofficial: ERR syntax error
+    at setRedisData (file:///home/kailash/coding/Kedium.in/backend/utils/redis.utils.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 08:01:08 [31merror[39m: ReplyError: ERR syntax error
+    at parseError (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/kailash/coding/Kedium.in/backend/node_modules/redis-parser/lib/parser.js:302:14)
+2024-09-08 08:42:48 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:05 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:09 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:15 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 08:43:16 [31merror[39m: Error checking rate limit for user kailashsurofficial: Rate limit exceeded. Try again in 60 seconds.
+2024-09-08 11:08:26 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:09:03 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:13:17 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:17:31 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:19:05 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:42:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:30:51 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:31:57 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:31:57 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:36:32 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:36:32 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:37:40 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 11:40:15 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:08:13 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:21:52 [31merror[39m: Blog with ID on-a-tesla:-don’t-vydhyj5zsgsqwjz8rjsdd not found
+2024-09-08 13:21:52 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 13:23:15 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:17:03 [31merror[39m: Blog with ID a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf not found
+2024-09-08 15:17:03 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:17:16 [31merror[39m: Blog with ID a-basic-question-in-a-security-interview-0mnvcvup7cs3skdvriayf not found
+2024-09-08 15:17:16 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:24:28 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:24:28 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:06 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:06 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:06 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:06 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:38 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:38 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:25:38 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:25:38 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:26:35 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:26:35 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:26:35 [31merror[39m: User with ID 66dd57967bbeb192f5243bdc not found
+2024-09-08 15:26:35 [31merror[39m: Error: User with ID 66dd57967bbeb192f5243bdc not found
+    at Object.authorfunc [as author] (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/author.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:41:02 [31merror[39m: Error: User not found
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:55:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08 15:45:09 [31merror[39m: Blog with ID library not found
+2024-09-08 15:45:09 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 03:06:05 [31merror[39m: Blog with ID list not found
+2024-09-09 03:06:05 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:00:39 [31merror[39m: Blog with ID library not found
+2024-09-09 19:00:39 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:00:45 [31merror[39m: Blog with ID stories not found
+2024-09-09 19:00:45 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:01:13 [31merror[39m: Blog with ID list not found
+2024-09-09 19:01:13 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:01:17 [31merror[39m: Blog with ID about not found
+2024-09-09 19:01:17 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 19:24:39 [31merror[39m: Blog with ID about not found
+2024-09-09 19:24:39 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 21:53:09 [31merror[39m: Blog with ID list not found
+2024-09-09 21:53:09 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-09 23:57:05 [31merror[39m: Blog with ID about not found
+2024-09-09 23:57:05 [31merror[39m: TypeError: Cannot read properties of null (reading '_id')
+    at Object.getBlog (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getBlog.js:27:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 11:51:04 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 12:10:09 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-10 12:10:47 [31merror[39m: SyntaxError: Expected property name or '}' in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at Object.getUser (file:///home/kailash/coding/Kedium.in/backend/graphql/resolvers/queries/getUser.js:40:33)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

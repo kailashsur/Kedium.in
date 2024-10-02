@@ -1,0 +1,7 @@
+.loader {
+    @apply flex justify-center items-center;
+}
+
+.loader svg {
+    @apply h-12 w-12;
+}

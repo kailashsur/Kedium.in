@@ -48,6 +48,8 @@ export default function Home() {
                   <h1>{blog.title}</h1>
                 </Link>
               ))}
+
+            <h1>Hello, First page</h1>
           </div>
         </main>
       </main>

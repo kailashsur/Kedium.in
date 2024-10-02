@@ -55,7 +55,7 @@ const BlogPost = ({ blogData }) => {
     return <NotFound />;
   }
 
-  const { title, thumbnail, tags, publishedAt, description, author, activity } =
+  const { title, thambnail, tags, publishedAt, description, author, activity } =
     blogData?.getBlog;
 
   return (
@@ -66,7 +66,7 @@ const BlogPost = ({ blogData }) => {
         <meta name="keywords" content={tags.join(", ")} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={thumbnail} />
+        <meta property="og:image" content={thambnail} />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={publishedAt} />
         <meta property="article:author" content={author.fullname} />
@@ -96,9 +96,9 @@ const BlogPost = ({ blogData }) => {
               <Interaction activity={activity} />
 
               {/* Thumbnail */}
-              {thumbnail && (
+              {thambnail && (
                 <Image
-                  src={thumbnail}
+                  src={thambnail}
                   alt={title}
                   className="w-full rounded-sm mt-8"
                   width={800}

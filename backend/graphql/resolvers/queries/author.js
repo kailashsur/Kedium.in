@@ -29,7 +29,7 @@ export const authorfunc = async (blog) => {
 
     // Cache author data asynchronously
     redisClient
-      .set(cacheKey, JSON.stringify(user), "EX", 3600 * 168)
+      .set(cacheKey, JSON.stringify(user), "EX", 3600 * 24)
       .catch((cacheError) => {
         logger.error(`Error caching author data: ${cacheError.message}`);
       });

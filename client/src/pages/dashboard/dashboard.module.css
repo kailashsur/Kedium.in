@@ -1,0 +1,26 @@
+.parent {
+    @apply my-4 flex min-h-screen gap-4 select-none;
+}
+
+.sidebar {
+    @apply absolute right-4 left-4  h-full sm:h-auto bg-white text-primary-text dark:bg-primary-dart-background dark:text-primary-dark-text z-50 shadow-sm font-bold p-4 rounded-md transition-all duration-300 ease-in-out;
+}
+
+
+
+/* dashboard.module.css */
+
+.sidebarOpen {
+    transform: translateX(0);
+}
+
+.sidebarClosed {
+    transform: translateX(-100%);
+}
+
+@media (min-width: 640px) {
+    .sidebar {
+        position: static;
+        transform: none;
+    }
+}

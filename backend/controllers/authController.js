@@ -1,5 +1,3 @@
-// Authentication controller
-// controllers/userController.js
 import {
   extractNameFromEmail,
   getUsernameByEmail,
@@ -7,168 +5,144 @@ import {
 } from "../lib/methodLib.js";
 import { emailRegex, passwordRegex } from "../lib/regX.js";
 import bcrypt from "bcryptjs";
-// db schema import
 import User from "../models/User.js";
 
 class AuthClass {
-  // ---signup user
-  async registerUser(req, res) {
-    const data = req.body;
+  // Utility function to set user cookies
+  setUserCookie(res, user) {
+    return res
+      .status(200)
+      .cookie("UserAuth", userformateDatatoSend(user), {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "Lax",
+        maxAge: 1000 * 60 * 60 * 24 * 7, // 1 week
+      })
+      .send("User cookie set successfully");
+  }
 
-    if (!data.email.length) {
-      return res.status(403).json({ error: "Enter Email" });
+  // ---signup user------------------------------------------------------
+  async registerUser(req, res) {
+    const { email, password } = req.body;
+
+    // Validate email
+    if (!email) {
+      return res.status(403).json({ error: "Please enter an email" });
     }
-    if (!emailRegex.test(data.email)) {
-      return res.status(403).json({ Error: "Email is invalid" });
+
+    // Email and password validation (similar to your current validation)
+    if (!emailRegex.test(email)) {
+      return res.status(403).json({ error: "Invalid email format" });
     }
-    if (!passwordRegex.test(data.password)) {
-      return res
-        .status(403)
-        .json({
-          Error:
-            "Password should be 6 to 20 characters long with a numeric, 1 lowercase and 1 uppercase letters",
-        });
+    if (!passwordRegex.test(password)) {
+      return res.status(403).json({
+        error:
+          "Password must be 6-20 characters long with at least 1 numeric, 1 lowercase, and 1 uppercase letter",
+      });
+    }
+
+    // Validate password
+    if (!passwordRegex.test(password)) {
+      return res.status(403).json({
+        error:
+          "Password should be 6 to 20 characters long with at least 1 numeric, 1 lowercase, and 1 uppercase letter",
+      });
     }
 
     try {
-      let username = await getUsernameByEmail(data.email);
+      // Generate username based on email and hash password
+      const username = await getUsernameByEmail(email);
+      const hashedPassword = await bcrypt.hash(password, 10);
+
+      // Create new user
       const user = await User.create({
-        fullname: extractNameFromEmail(data.email),
-        email: data.email,
-        username: username,
-        password: req.hashedPassword,
+        fullname: extractNameFromEmail(email),
+        email,
+        username,
+        password: hashedPassword,
       });
 
-      res
-        .status(200)
-        .cookie("UserAuth", userformateDatatoSend(user), {
-          httpOnly: true,
-          // secure: true,
-          maxAge: 1000 * 60 * 60 * 24 * 7,
-        })
-        .send("user cookie set successfully");
+      // Set user cookie
+      return this.setUserCookie(res, user);
     } catch (error) {
-      error.code == 11000
-        ? res.status(500).json({ error: "Email alredy exist" })
-        : res.status(500).json({ error: error.message });
+      // Handle duplicate email error (code 11000)
+      if (error.code === 11000) {
+        return res.status(409).json({ error: "Email already exists" });
+      }
+
+      // Handle other errors
+      return res.status(500).json({ error: error.message });
     }
   }
-  //-------------------------
 
-  //------Login User
+  // ------Login User----------------------------------------------------------
   async loginUser(req, res) {
-    const data = req.body;
+    const { email, password } = req.body;
+
+    // Email and password validation (similar to your current validation)
+    
+    
 
     try {
-      const user = await User.findOne({ email: data.email }).select(
+      const user = await User.findOne({ email }).select(
         "email password google_auth",
       );
 
       if (!user) {
-        return res.status(403).json({ Error: "Email Not Found" });
+        return res.status(402).json({ message: "Email not found" });
       }
 
-      if (!user.google_auth) {
-        bcrypt.compare(data.password, user.password, function (error, result) {
-          if (error) {
-            return res
-              .status(403)
-              .json({ error: "error on verify password, please try again" });
-          }
-
-          if (!result) {
-            return res.status(403).json({ error: "Invalid Password" });
-          } else {
-            // res.cookie("UserAuth",userformateDatatoSend(user), {
-            //     httpOnly : true,
-            //     // secure:true,
-            //     maxAge : 1000 * 60 * 60 * 24 * 7,
-            // } )
-
-            // return res.status(200).json(userformateDatatoSend(user))
-
-            res
-              .status(200)
-              .cookie("UserAuth", userformateDatatoSend(user), {
-                httpOnly: true,
-                // secure: true,
-                maxAge: 1000 * 60 * 60 * 24 * 7,
-              })
-              .send("user cookie set successfully");
-          }
+      if (user.google_auth) {
+        return res.status(403).json({
+          message:
+            "Account was created with Google. Please try logging in with Google.",
         });
-      } else {
-        return res
-          .status(403)
-          .json({
-            error: "Account was created with Google, Please try with google",
-          });
       }
+
+      const isPasswordValid = bcrypt.compare(password, user.password);
+      if (!isPasswordValid) {
+        return res.status(403).json({ error: "Invalid Password" });
+      }
+
+      return this.setUserCookie(res, user);
     } catch (error) {
       return res.status(500).json({ error: error.message });
     }
   }
 
   // Google Auth Register or login
-
-  // ---signup user
   async googleAuth(req, res) {
-    const data = req.body; // { either access token , or all data } if access token -> login, if data then register
+    const { email, fullname, image } = req.body;
 
-
-
-    if (data.email) {
+    if (email) {
       try {
-        const user = await User.findOne({ email: data.email });
- 
+        const user = await User.findOne({ email });
 
-        
         if (!user) {
-          // here the signup process will be done
-          let username = await getUsernameByEmail(data.email);
-  
+          // Register new Google user
+          const username = await getUsernameByEmail(email);
+
           const newUser = await User.create({
-            fullname: data.fullname,
-            email: data.email,
-            username: username,
-            profile: { profile_img: data.image },
+            fullname,
+            email,
+            username,
+            profile: { profile_img: image },
             google_auth: true,
           });
-  
-          res
-            .status(200)
-            .cookie("UserAuth", userformateDatatoSend(newUser), {
-              httpOnly: true,
-              secure: process.env.NODE_ENV === 'production',
-              sameSite: 'Lax',
-              maxAge: 1000 * 60 * 60 * 24 * 7, // 1 week
-            })
-            .send("User cookie set successfully");
+
+          return this.setUserCookie(res, newUser);
         } else {
-          // User exists, handle login process if needed
-          res
-            .status(200)
-            .cookie("UserAuth", userformateDatatoSend(user), {
-              httpOnly: true,
-              secure: process.env.NODE_ENV === 'production',
-              sameSite: 'Lax',
-              maxAge: 1000 * 60 * 60 * 24 * 7, // 1 week
-            })
-            .send("User cookie set successfully");
+          // Existing user, login
+          return this.setUserCookie(res, user);
         }
-
-
       } catch (error) {
-        res.status(303).json({ error: error })
+        return res.status(500).json({ error: error.message });
       }
+    } else {
+      return res.status(400).json({ error: "Email is required" });
     }
   }
-
 }
+
 const authControllers = new AuthClass();
 export default authControllers;
-
-// Add more controller functions as needed (e.g., createUser, getUserById, etc.)
-
-// this will fill up with all login and regster methods
-

@@ -32,6 +32,23 @@ const gqlResolver = {
     author: authorfunc,
     activity: activityfunc,
   },
+  User: {
+    followers: async (parent) => {
+      return await User.find({ following: parent._id });
+      // return await redisClient.smembers(`users:user:${parent.username}:followers`);
+    },
+    following: async (parent) => {
+      return await User.find({ followers: parent._id });
+      // return await redisClient.smembers(`users:user:${parent.username}:following`);
+    },
+    reading_list: async (parent) => {
+      return await Blog.find({ _id: { $in: parent.reading_list } });
+    },
+    blogs: async (parent) => {
+      const blogs = await Blog.find({ author: parent._id });
+      return blogs;
+    },
+  },
 };
 
 export default gqlResolver;

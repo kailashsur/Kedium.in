@@ -62,9 +62,9 @@ const blogSchema = mongoose.Schema(
   {
     timestamps: {
       createdAt: "publishedAt",
+      updatedAt: "updatedAt",
     },
   },
 );
 
 export default mongoose.model("Blog", blogSchema);
-
