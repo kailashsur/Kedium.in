@@ -1,98 +1,53 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-// ui components
-import { FlipWords } from "@/components/ui/flip-words";
 import Layout from "@/Layout/Layout";
-import Loader from "@/components/ui/loader";
-import { useSelector } from "react-redux";
-import { UserState } from "@/store/slices/userSlice";
-import { useQuery, gql } from "@apollo/client";
-
 import Link from "next/link";
-import { AuthState } from "@/store/slices/authSlice";
-import StoryList from "@/components/sections/StoryList.section";
-import { Blog } from "@/Types/BlogPost";
-import LoaderForPage from "@/components/ui/Loader-for-page";
+import { useSelector } from "react-redux";
+import { TokenState } from "@/store/slices/token.slice";
+import axios from "axios";
 
-import { GetServerSideProps } from "next";
-
-const GET_BLOGS = gql`
-  query getBlogs($ip: String!) {
-    getBlogs(ip: $ip) {
-      blog_id
-      title
-      description
-      thambnail
-      author {
-        profile {
-          profile_img
-        }
-        fullname
-        username
-      }
-      updatedAt
-      activity {
-        total_likes
-        total_comments
-        total_reads
-      }
-    }
-  }
-`;
-
-interface Props {
-  ip: string;
-}
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ ip }: Props) {
-  const userData = useSelector((state: { User: UserState }) => state.User.data);
-  const { data, loading, error } = useQuery(GET_BLOGS, {
-    variables: {
-      ip: ip,
-    },
-  });
-  const AuthVisible = useSelector(
-    (state: { Auth: AuthState }) => state.Auth.visible,
-  );
+export default function Home() {
+  const { status, error, accessToken: token, data } = useSelector((state: { Token: TokenState }) => state.Token);
 
-  // if (loading) return <Loader />;
 
-  const words = ["Hello", "world", "from", "Next.js"];
+  async function handelLogout() {
+    try {
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_USER_API_URL}/api/v1/auth/logout`, {}, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        },
+        withCredentials : true
+      });
+
+      console.log(res);
+    } catch (error) {
+      console.error("Failed to logout:", error);
+    }
+  }
 
   return (
     <Layout>
-      <div
-        className={`h-auto w-full flex flex-col justify-center ${inter.className}`}
-      >
-        <div
-          className={`h-auto min-h-screen w-full flex flex-col ${inter.className} max-w-4xl mx-auto py-10 px-4 sm:px-6 lg:px-8`}
-        >
-          {/* For you top suggested posts list */}
-          {data ? <StoryList blogs={data.getBlogs} /> : <LoaderForPage />}
-        </div>
+      <div className=" pt-28">
+
+        <h1 className=" bg-lime-500">Hello home page</h1>
+
+        <Link href="/u/auth">
+          Go to Auth
+        </Link>
+
+{
+  token && (
+
+    <button className="bg-purple-500 p-4 rounded-sm py-2 active:bg-green-400" onClick={handelLogout}>Logout</button>
+  )
+}
+
       </div>
     </Layout>
   );
 }
 
-export const getServerSideProps: GetServerSideProps<Props> = async (
-  context,
-) => {
-  const req = context.req;
-  const getClientIp = (req: typeof context.req): string => {
-    const forwardedFor = req.headers["x-forwarded-for"] as string | undefined;
-    return forwardedFor
-      ? forwardedFor.split(",")[0]
-      : req.socket.remoteAddress || "";
-  };
 
-  const ip = getClientIp(req);
-
-  return {
-    props: {
-      ip,
-    },
-  };
-};

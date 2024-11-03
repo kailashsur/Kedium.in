@@ -1,27 +1,27 @@
 import { useDispatch, useSelector } from "react-redux";
-import { enable, disable, AuthState } from "@/store/slices/authSlice";
+// import { enable, disable, AuthState } from "@/store/slices/authSlice";
 import { UserState } from "@/store/slices/userSlice";
 
 export default function TopNav() {
   const dispatch = useDispatch();
-  const visible = useSelector(
-    (state: { Auth: AuthState }) => state.Auth.visible,
-  );
+  // const visible = useSelector(
+  //   (state: { Auth: AuthState }) => state.Auth.visible,
+  // );
   const { data } = useSelector((state: { User: UserState }) => state.User);
 
   function handelSignup() {
-    if (visible) {
-      dispatch(disable());
-    } else {
-      dispatch(enable("signup"));
-    }
+    // if (visible) {
+    //   dispatch(disable());
+    // } else {
+    //   dispatch(enable("signup"));
+    // }
   }
   function handelLogin() {
-    if (visible) {
-      dispatch(disable());
-    } else {
-      dispatch(enable("login"));
-    }
+    // if (visible) {
+    //   dispatch(disable());
+    // } else {
+    //   dispatch(enable("login"));
+    // }
   }
 
   return (

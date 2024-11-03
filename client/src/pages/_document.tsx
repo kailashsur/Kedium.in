@@ -6,8 +6,6 @@ export default function Document() {
       <Head />
       <body
         className="h-full w-full bg-primary-background text-primary-text
-
-      pt-16
       "
       >
         <Main />

@@ -9,7 +9,8 @@ import { validate_email } from "../../utils/validators";
 import User from "../../models/user.model";
 import Follow from "../../models/follow.model";
 import logger from "../../utils/logger";
-
+import { GetUser as R_GetUser } from "../../config/redis.config";
+import { SetUser as R_SetUser } from "../../config/redis.config";
 
 
 /** Not need authentication
@@ -66,6 +67,15 @@ export default async function GetUser(req: Request, res: Response) {
         // get the user details with agrigation pipeline, fetch user details from user collection and follow details from follow collection
         // if the user is following the user then follow details will be there otherwise it will be null
 
+        // Check user is in cache or not 
+        const cache_user  = await R_GetUser(username);
+
+        if(cache_user){
+            return res.status(200).json({ user : cache_user });
+        }
+
+
+
         const [ user ] = await User.aggregate([
             {
                 $match: {
@@ -121,6 +131,12 @@ export default async function GetUser(req: Request, res: Response) {
             }
         ])
 
+        if(!user){
+            return res.status(404).json({ message: "User is not found" });
+        }
+
+        // Set the user in cache
+        R_SetUser(user);
 
 
         return res.status(200).json({ user })

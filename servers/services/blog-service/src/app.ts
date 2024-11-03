@@ -59,7 +59,7 @@ app.use(rateLimit({
  * Connect to MongoDB
  */
 
-// init();
+init();
 
 
 /**

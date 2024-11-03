@@ -1,7 +1,7 @@
 import { SignOut } from "@/lib/auth-methods";
 import { toast_theme1 } from "@/lib/hot-toast";
 import { obfuscateEmail } from "@/lib/methods";
-import { enable } from "@/store/slices/authSlice";
+// import { enable } from "@/store/slices/authSlice";
 import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -14,12 +14,35 @@ import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "next-auth/react";
 import { UserState } from "@/store/slices/userSlice";
 
+
 import {
   library_icon,
   profile_icon,
   stats_icon,
   stories_icon,
 } from "@/asets/icons";
+import { TokenState } from "@/store/slices/token.slice";
+import { UseDispatch } from "react-redux";
+import { resetState } from "@/store/slices/token.slice";
+
+
+
+
+
+export async function logout(token: string) {
+  try {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_USER_API_URL}/api/v1/auth/logout`, {}, {
+      headers: {
+        Authorization: `Bearer ${token}`
+      },
+      withCredentials : true
+    });
+
+    return res;
+  } catch (error) {
+    console.error("Failed to logout:", error);
+  }
+}
 
 function ProfileTogle({
   isOpen,
@@ -29,54 +52,25 @@ function ProfileTogle({
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   const userData = useSelector((state: { User: UserState }) => state.User.data);
+  const { status, error, accessToken: token, data } = useSelector((state: { Token: TokenState }) => state.Token);  
   const router = useRouter();
-
-  const { asPath } = router;
   const dispatch = useDispatch();
+
+  
 
   const profileTogleRef = useRef(null);
 
   function handelSignup(): void {
-    dispatch(enable("signup"));
+    // dispatch(enable("signup"));
   }
 
-  // const handleClickOutside = (event) => {
-  //   if (
-  //     profileTogleRef.current &&
-  //     !profileTogleRef.current.contains(event.target)
-  //   ) {
-  //     setIsOpen(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   document.addEventListener("mousedown", handleClickOutside);
-  //   return () => {
-  //     document.removeEventListener("mousedown", handleClickOutside);
-  //   };
-  // }, []);
 
   async function handelSignout() {
-    try {
-      // Ensure signOut completes
-      await SignOut();
+    const res = await logout(token)
+    dispatch(resetState());
 
-      const res = await signOut();
-
-      // Execute SignOut after signOut completes
-
-      if (res) {
-        toast.success(res, toast_theme1);
-
-        if (router.pathname === "/") {
-          router.reload();
-        } else {
-          router.push("/");
-          router.reload();
-        }
-      }
-    } catch (error) {
-      console.error("Error during signout process:", error);
+    if(res){
+      router.push('/u/auth?isOnboardingQuery=false')
     }
   }
 
@@ -122,22 +116,20 @@ function ProfileTogle({
         } shadow-md shadow-black/30 dark:border-primary-dark-text dark:border z-40 `}
         style={{ top: "40px" }}
       >
-        {!userData.access_token ? (
+        {status !== 'succeeded' ? (
           <div className=" flex justify-center items-center flex-col gap-4 p-6">
             <p className=" font-semibold ">Get started </p>
 
             <button
               className=" text-sm bg-purple-700 text-white w-full rounded-full py-2 hover:bg-purple-800 transition-all "
-              onClick={handelSignup}
+              onClick={()=> router.push('/u/auth?isOnboardingQuery=true')}
             >
               Sign up
             </button>
 
             <button
               className=" text-sm border border-black text-black w-full rounded-full py-2 transition-all "
-              onClick={() => {
-                dispatch(enable("login"));
-              }}
+              onClick={() => router.push('/u/auth?isOnboardingQuery=false')}
             >
               Sign in
             </button>
@@ -146,7 +138,7 @@ function ProfileTogle({
           ""
         )}
 
-        {userData.access_token ? (
+        {status == 'succeeded' ? (
           <>
             {/* Write Section */}
             <Link
@@ -176,7 +168,7 @@ function ProfileTogle({
             {/* Profile Items section */}
             <div className="mt-5 px-6 pt-0 flex flex-col gap-4 capitalize">
               <Link
-                href={`/@${userData.username}`}
+                href={`/@${data.username}`}
                 className=" text-textGrey flex items-center gap-4 hover:primary-text  transition-all "
               >
                 {/* :profile svg icon */}
@@ -293,7 +285,7 @@ function ProfileTogle({
 
         {/* login and signup section */}
 
-        {userData.access_token ? (
+        {status == 'succeeded' ? (
           <>
             <hr className=" my-5 border-borderGrey" />
             <div className=" px-6 pt-0 flex flex-col gap-4">
@@ -302,7 +294,7 @@ function ProfileTogle({
                 className=" text-textGrey text-start gap-4 hover:primary-text hover:font-normal transition-all text-sm "
               >
                 <p>Sign out</p>
-                <p>{obfuscateEmail(userData.email || "")}</p>
+                <p>{obfuscateEmail(data.email || "")}</p>
               </button>
             </div>
           </>

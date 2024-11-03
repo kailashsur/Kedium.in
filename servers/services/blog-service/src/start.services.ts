@@ -61,10 +61,10 @@ export default async function init() {
     await CONNECT_MONGODB();
 
     // Connecy to Redis
-    // app.use((req: Request, res: Response, next: NextFunction) => {
-    //   req.redisClient = redisClient;
-    //   next();
-    // })
+    app.use((req: Request, res: Response, next: NextFunction) => {
+      req.redisClient = redisClient;
+      next();
+    })
 
     // Connect to Kafka
     await connectKafka();

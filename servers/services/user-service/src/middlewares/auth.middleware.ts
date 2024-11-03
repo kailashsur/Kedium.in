@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 import 'dotenv/config';
 import User, { CustomJwtPayload } from '../models/user.model';
 import { UserType } from '../Types';
+import { GetUser, SetUser } from '../config/redis.config';
 
 /**
  * 
@@ -71,6 +72,14 @@ export const verifyJWT = asyncHandler(async (req: Request, res: Response, next: 
             return res.status(401).json({ message: 'Invalid Access Token' });
         }
 
+        /** Check redis */
+        const R_USER = await GetUser(decoded.username)
+
+        if (R_USER) {
+
+            req.user = R_USER;
+            return next();
+        }
         /**
          * Check at db
          */
@@ -80,6 +89,7 @@ export const verifyJWT = asyncHandler(async (req: Request, res: Response, next: 
             return res.status(401).json({ message: 'Invalid Access Token' });
         }
 
+        SetUser(user)
 
         /** [Step 7]
          * Set the  new user object in the request object

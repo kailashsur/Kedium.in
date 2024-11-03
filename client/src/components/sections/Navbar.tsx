@@ -1,35 +1,44 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
 import profile from "@/images/profile.png";
-import Logo from "@/images/Medium.svg";
+import Logo from "/public/logo.svg";
 import { useEffect, useState } from "react";
 import ProfileTogle from "../ProfileTogle";
-import { useDispatch, useSelector } from "react-redux";
-import { enable } from "@/store/slices/authSlice";
+import {useSelector } from "react-redux";
+
 import Link from "next/link";
 // component ui import
 import SearchBox from "../SearchBox";
-import { setPrevPath } from "@/store/slices/pathSlice";
+
 import { useRouter } from "next/router";
-import { UserState } from "@/store/slices/userSlice";
+import { TokenState } from "@/store/slices/token.slice";
+
+
+
+
 
 export default function Navbar() {
-  const userData = useSelector((state: { User: UserState }) => state.User.data);
-  const { info } = useSelector((state: { User: UserState }) => state.User);
-  const dispatch = useDispatch();
+  const { status, error, accessToken: token, data } = useSelector((state: { Token: TokenState }) => state.Token);  
   const router = useRouter();
+
+  
+
+  
+  
+  
+
 
   // Profile Image configuration
   const [profileImage, setProfileImage] = useState<string | StaticImageData>(
     profile,
   );
   useEffect(() => {
-    if (info?.profile?.profile_img) {
-      setProfileImage(info?.profile?.profile_img);
+    if (status === "succeeded" && data) {
+      setProfileImage(data.profile.profile_img);
     } else {
       setProfileImage(profileImage);
     }
-  }, [info, profileImage]);
+  }, [profileImage, data, status]);
 
   // this is for togle the profile togle
   const [isOpen, setIsOpen] = useState(false);
@@ -39,19 +48,19 @@ export default function Navbar() {
   }
 
   function handelWrite() {
-    if (userData.access_token) {
+    if (status === "succeeded" && token) {
       router.push("/new-story");
     } else {
-      dispatch(enable("login"));
+      // dispatch(enable("login"));
     }
   }
   function handelsignup() {
-    dispatch(enable("signup"));
-    dispatch(setPrevPath(router.asPath));
+    // dispatch(enable("signup"));
+    // dispatch(setPrevPath(router.asPath));
   }
   function handelsignin() {
-    dispatch(enable("login"));
-    dispatch(setPrevPath(router.asPath));
+    // dispatch(enable("login"));
+    // dispatch(setPrevPath(router.asPath));
   }
 
   return (
@@ -61,7 +70,9 @@ export default function Navbar() {
       {/* Logo */}
       <div className="flex gap-4 items-center ">
         <Link href="/">
-          <Image src={Logo} alt="logo" height={21} />
+          <Image src={Logo} alt="logo" height={90} />
+          
+
         </Link>
 
         {/* Serch box for desktop only */}
@@ -117,7 +128,7 @@ export default function Navbar() {
         </div>
 
         {/* Notification icon and functionality */}
-        {userData?.access_token ? (
+        {status == 'succeeded' && token ? (
           <div className=" h-6 w-6 text-defaultGrey hover:text-black transition-all cursor-pointer">
             <svg
               width="24"
@@ -142,7 +153,7 @@ export default function Navbar() {
           ""
         )}
 
-        {!userData?.access_token ? (
+        {status !== 'succeeded' ? (
           <div className="font-Mori">
             <button
               className=" hidden md:inline-block text-sm py-1 px-3 text-white rounded-full bg-link-orenge hover:bg-orange-600 transition-all cursor-pointer"

@@ -3,30 +3,38 @@
 // Desc: This file contains the layout of the application. It is the parent component of all the pages and components.
 import React from "react";
 import Header from "@/components/sections/Header";
-import { useSelector } from "react-redux";
-import AuthLayer from "./AuthLayer";
 import { Toaster } from "react-hot-toast";
-import AuthForm from "@/components/auth/auth";
 import Footer from "@/components/sections/Footer";
-import { AuthState } from "@/store/slices/authSlice"; // interface type imports
+import AuthLayer from "./AuthLayer";
+import { useSelector } from "react-redux";
+import { TokenState } from "@/store/slices/token.slice";
+import Loader from "@/components/ui/loader";
+
+
+
+
+
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const authVisible = useSelector((state: { Auth: AuthState }) => state.Auth);
+ 
 
   return (
-    <AuthLayer>
+  <AuthLayer>
+    <main className=" w-full min-h-screen h-full flex flex-col justify-between">
       <Header />
       <Toaster position="top-center" reverseOrder={false} />
 
-      {authVisible.visible ? <AuthForm /> : ""}
+      
 
-      <main className=" w-full h-auto flex justify-center ">
-        <div className=" max-w-5xl w-full h-auto flex flex-col ">
+      <div className=" w-full h-auto flex justify-center  ">
+        <div className=" w-full max-w-5xl bg-lime-500">
           {children}
         </div>
-      </main>
+       
+      </div>
 
       <Footer />
-    </AuthLayer>
+    </main>
+  </AuthLayer>
   );
 }

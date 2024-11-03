@@ -4,6 +4,7 @@ import { login, logout, register, changePassword, forgotPassword, refreshAccessT
 import { verifyJWT } from "../middlewares/auth.middleware";
 import { verifyForgotOTP } from "../controllers/auth/verifyForgotOTP.forgot.auth.controller";
 import { ResendOTP } from "../controllers/auth/resendOTP.auth.controller";
+import { LoginWithAccessToken } from "../controllers/auth/login/getLoginWithAccessToken.controller";
 
 
 /**
@@ -37,6 +38,7 @@ auth_router.route('/').get((req, res) => {
 
 auth_router.route('/register').post(register);
 auth_router.route('/login').post(login);
+auth_router.route('/login-with-access-token').get(verifyJWT, LoginWithAccessToken);
 
 /**
  * Verify otp

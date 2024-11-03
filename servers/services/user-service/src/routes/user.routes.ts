@@ -25,6 +25,9 @@ const user_router = Router();
  */
 
 // * Follow and Unfollow
+user_router.route('/decode-token').get(verifyJWT, (req, res) => {
+    res.status(200).json({ message: "Token is valid", user: req.user });
+});
 user_router.route('/follow').post(verifyJWT, FollowUser);
 user_router.route('/unfollow').post(verifyJWT, UnfollowUser);
 
